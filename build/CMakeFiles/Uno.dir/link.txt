@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Uno.dir/main.cpp.o -o Uno 

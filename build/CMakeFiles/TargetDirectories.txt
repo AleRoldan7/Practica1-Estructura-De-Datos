@@ -1,0 +1,3 @@
+/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles/Uno.dir
+/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles/edit_cache.dir
+/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles/rebuild_cache.dir
