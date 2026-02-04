@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Uno.dir/main.cpp.o -o Uno 
+/usr/bin/c++ CMakeFiles/Uno.dir/main.cpp.o CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o "CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o" "CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o" CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o -o Uno 

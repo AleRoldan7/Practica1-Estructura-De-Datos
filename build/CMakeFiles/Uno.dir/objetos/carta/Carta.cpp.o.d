@@ -1,7 +1,16 @@
-CMakeFiles/Uno.dir/main.cpp.o: \
- /home/alejandro/CLionProjects/Practica1/Uno/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o: \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.cpp \
+ /usr/include/stdc-predef.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../carta/../../enums/CartaColor.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../carta/../../enums/TipoCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../utils/UtilColorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../utils/../enums/CartaColor.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../utils/UtilValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../utils/../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../utils/UtilTipoCarta.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -154,8 +163,4 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../enums/CartaColor.h \
- /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../enums/TipoCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/../../enums/ValorCarta.h
+ /usr/include/c++/13/bits/istream.tcc

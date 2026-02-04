@@ -7,10 +7,24 @@ add_executable(Uno main.cpp
         enums/CartaColor.h
         enums/TipoCarta.h
         enums/ValorCarta.h
-        objetos/carta/Carta.cpp
-        objetos/carta/Carta.h
         objetos/jugador/jugador.cpp
         objetos/jugador/jugador.h
-        objetos/lista/mazo-lista/MazoLista.cpp
-        objetos/lista/mazo-lista/MazoLista.h
+        objetos/lista/lista-circular/ListaCircular.cpp
+        objetos/lista/lista-circular/ListaCircular.h
+        utils/UtilColorCarta.cpp
+        utils/UtilColorCarta.h
+        utils/UtilValorCarta.cpp
+        utils/UtilValorCarta.h
+        objetos/carta/Carta.cpp
+        objetos/carta/Carta.h
+        utils/UtilTipoCarta.cpp
+        utils/UtilTipoCarta.h
+        utils/CentrarTexto.cpp
+        utils/CentrarTexto.h
+        objetos/lista/mazo-lista/NodoMazo.cpp
+        objetos/lista/mazo-lista/NodoMazo.h
+        objetos/lista/mazo-lista/PilaMazo.cpp
+        objetos/lista/mazo-lista/PilaMazo.h
+        objetos/lista/mazo-lista/MazoCartas.cpp
+        objetos/lista/mazo-lista/MazoCartas.h
 )

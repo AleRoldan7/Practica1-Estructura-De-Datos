@@ -1,16 +1,16 @@
 //
-// Created by alejandro on 3/2/26.
+// Created by alejandro on 4/2/26.
 //
 
 #ifndef UNO_CARTA_H
 #define UNO_CARTA_H
-
 #include "../../enums/CartaColor.h"
 #include "../../enums/TipoCarta.h"
 #include "../../enums/ValorCarta.h"
 
+
 class Carta {
-    private:
+private:
     ColorCarta color;
     TipoCarta tipo;
     ValorCarta valor;
@@ -18,10 +18,17 @@ class Carta {
     public:
     Carta();
     Carta(ColorCarta color, TipoCarta tipo, ValorCarta valor);
+    Carta(const Carta& otra)
+        : color(otra.color), tipo(otra.tipo), valor(otra.valor) {}
 
-    ColorCarta getColor() const;
-    TipoCarta getTipo() const;
-    ValorCarta getValor() const;
+    ColorCarta getColor();
+    void setColor(ColorCarta color);
+    TipoCarta getTipo();
+    void setTipo(TipoCarta tipo);
+    ValorCarta getValor();
+    void setValor(ValorCarta valor);
+
+    void mostrarCarta();
 };
 
 

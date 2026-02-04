@@ -20,4 +20,5 @@ enum ColorCarta {
 };
 
 
+
 #endif //UNO_CARTACOLOR_H

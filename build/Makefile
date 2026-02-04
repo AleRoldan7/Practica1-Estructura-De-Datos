@@ -153,6 +153,174 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+objetos/carta/Carta.o: objetos/carta/Carta.cpp.o
+.PHONY : objetos/carta/Carta.o
+
+# target to build an object file
+objetos/carta/Carta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o
+.PHONY : objetos/carta/Carta.cpp.o
+
+objetos/carta/Carta.i: objetos/carta/Carta.cpp.i
+.PHONY : objetos/carta/Carta.i
+
+# target to preprocess a source file
+objetos/carta/Carta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.i
+.PHONY : objetos/carta/Carta.cpp.i
+
+objetos/carta/Carta.s: objetos/carta/Carta.cpp.s
+.PHONY : objetos/carta/Carta.s
+
+# target to generate assembly for a file
+objetos/carta/Carta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.s
+.PHONY : objetos/carta/Carta.cpp.s
+
+objetos/jugador/jugador.o: objetos/jugador/jugador.cpp.o
+.PHONY : objetos/jugador/jugador.o
+
+# target to build an object file
+objetos/jugador/jugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o
+.PHONY : objetos/jugador/jugador.cpp.o
+
+objetos/jugador/jugador.i: objetos/jugador/jugador.cpp.i
+.PHONY : objetos/jugador/jugador.i
+
+# target to preprocess a source file
+objetos/jugador/jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.i
+.PHONY : objetos/jugador/jugador.cpp.i
+
+objetos/jugador/jugador.s: objetos/jugador/jugador.cpp.s
+.PHONY : objetos/jugador/jugador.s
+
+# target to generate assembly for a file
+objetos/jugador/jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.s
+.PHONY : objetos/jugador/jugador.cpp.s
+
+objetos/lista/lista-circular/ListaCircular.o: objetos/lista/lista-circular/ListaCircular.cpp.o
+.PHONY : objetos/lista/lista-circular/ListaCircular.o
+
+# target to build an object file
+objetos/lista/lista-circular/ListaCircular.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o
+.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.o
+
+objetos/lista/lista-circular/ListaCircular.i: objetos/lista/lista-circular/ListaCircular.cpp.i
+.PHONY : objetos/lista/lista-circular/ListaCircular.i
+
+# target to preprocess a source file
+objetos/lista/lista-circular/ListaCircular.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.i
+.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.i
+
+objetos/lista/lista-circular/ListaCircular.s: objetos/lista/lista-circular/ListaCircular.cpp.s
+.PHONY : objetos/lista/lista-circular/ListaCircular.s
+
+# target to generate assembly for a file
+objetos/lista/lista-circular/ListaCircular.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.s
+.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.s
+
+objetos/lista/mazo-lista/MazoLista.o: objetos/lista/mazo-lista/MazoLista.cpp.o
+.PHONY : objetos/lista/mazo-lista/MazoLista.o
+
+# target to build an object file
+objetos/lista/mazo-lista/MazoLista.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o
+.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.o
+
+objetos/lista/mazo-lista/MazoLista.i: objetos/lista/mazo-lista/MazoLista.cpp.i
+.PHONY : objetos/lista/mazo-lista/MazoLista.i
+
+# target to preprocess a source file
+objetos/lista/mazo-lista/MazoLista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.i
+.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.i
+
+objetos/lista/mazo-lista/MazoLista.s: objetos/lista/mazo-lista/MazoLista.cpp.s
+.PHONY : objetos/lista/mazo-lista/MazoLista.s
+
+# target to generate assembly for a file
+objetos/lista/mazo-lista/MazoLista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.s
+.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.s
+
+utils/UtilColorCarta.o: utils/UtilColorCarta.cpp.o
+.PHONY : utils/UtilColorCarta.o
+
+# target to build an object file
+utils/UtilColorCarta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o
+.PHONY : utils/UtilColorCarta.cpp.o
+
+utils/UtilColorCarta.i: utils/UtilColorCarta.cpp.i
+.PHONY : utils/UtilColorCarta.i
+
+# target to preprocess a source file
+utils/UtilColorCarta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.i
+.PHONY : utils/UtilColorCarta.cpp.i
+
+utils/UtilColorCarta.s: utils/UtilColorCarta.cpp.s
+.PHONY : utils/UtilColorCarta.s
+
+# target to generate assembly for a file
+utils/UtilColorCarta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.s
+.PHONY : utils/UtilColorCarta.cpp.s
+
+utils/UtilTipoCarta.o: utils/UtilTipoCarta.cpp.o
+.PHONY : utils/UtilTipoCarta.o
+
+# target to build an object file
+utils/UtilTipoCarta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o
+.PHONY : utils/UtilTipoCarta.cpp.o
+
+utils/UtilTipoCarta.i: utils/UtilTipoCarta.cpp.i
+.PHONY : utils/UtilTipoCarta.i
+
+# target to preprocess a source file
+utils/UtilTipoCarta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.i
+.PHONY : utils/UtilTipoCarta.cpp.i
+
+utils/UtilTipoCarta.s: utils/UtilTipoCarta.cpp.s
+.PHONY : utils/UtilTipoCarta.s
+
+# target to generate assembly for a file
+utils/UtilTipoCarta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.s
+.PHONY : utils/UtilTipoCarta.cpp.s
+
+utils/UtilValorCarta.o: utils/UtilValorCarta.cpp.o
+.PHONY : utils/UtilValorCarta.o
+
+# target to build an object file
+utils/UtilValorCarta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o
+.PHONY : utils/UtilValorCarta.cpp.o
+
+utils/UtilValorCarta.i: utils/UtilValorCarta.cpp.i
+.PHONY : utils/UtilValorCarta.i
+
+# target to preprocess a source file
+utils/UtilValorCarta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.i
+.PHONY : utils/UtilValorCarta.cpp.i
+
+utils/UtilValorCarta.s: utils/UtilValorCarta.cpp.s
+.PHONY : utils/UtilValorCarta.s
+
+# target to generate assembly for a file
+utils/UtilValorCarta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.s
+.PHONY : utils/UtilValorCarta.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +333,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... objetos/carta/Carta.o"
+	@echo "... objetos/carta/Carta.i"
+	@echo "... objetos/carta/Carta.s"
+	@echo "... objetos/jugador/jugador.o"
+	@echo "... objetos/jugador/jugador.i"
+	@echo "... objetos/jugador/jugador.s"
+	@echo "... objetos/lista/lista-circular/ListaCircular.o"
+	@echo "... objetos/lista/lista-circular/ListaCircular.i"
+	@echo "... objetos/lista/lista-circular/ListaCircular.s"
+	@echo "... objetos/lista/mazo-lista/MazoLista.o"
+	@echo "... objetos/lista/mazo-lista/MazoLista.i"
+	@echo "... objetos/lista/mazo-lista/MazoLista.s"
+	@echo "... utils/UtilColorCarta.o"
+	@echo "... utils/UtilColorCarta.i"
+	@echo "... utils/UtilColorCarta.s"
+	@echo "... utils/UtilTipoCarta.o"
+	@echo "... utils/UtilTipoCarta.i"
+	@echo "... utils/UtilTipoCarta.s"
+	@echo "... utils/UtilValorCarta.o"
+	@echo "... utils/UtilValorCarta.i"
+	@echo "... utils/UtilValorCarta.s"
 .PHONY : help
 
 

@@ -83,17 +83,129 @@ CMakeFiles/Uno.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/main.cpp -o CMakeFiles/Uno.dir/main.cpp.s
 
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.cpp
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o -MF CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o.d -o CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.cpp
+
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.cpp > CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.i
+
+CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/objetos/carta/Carta.cpp -o CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.s
+
+CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/objetos/jugador/jugador.cpp
+CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o -MF CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o.d -o CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/objetos/jugador/jugador.cpp
+
+CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/objetos/jugador/jugador.cpp > CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.i
+
+CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/objetos/jugador/jugador.cpp -o CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.s
+
+CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/mazo-lista/MazoLista.cpp
+CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o -MF CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o.d -o CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/mazo-lista/MazoLista.cpp
+
+CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/mazo-lista/MazoLista.cpp > CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.i
+
+CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/mazo-lista/MazoLista.cpp -o CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.s
+
+CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/lista-circular/ListaCircular.cpp
+CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o -MF CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o.d -o CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/lista-circular/ListaCircular.cpp
+
+CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/lista-circular/ListaCircular.cpp > CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.i
+
+CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/objetos/lista/lista-circular/ListaCircular.cpp -o CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.s
+
+CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp
+CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o -MF CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o.d -o CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp
+
+CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp > CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.i
+
+CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp -o CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.s
+
+CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp
+CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o -MF CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o.d -o CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp
+
+CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp > CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.i
+
+CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp -o CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.s
+
+CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp
+CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o -MF CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o.d -o CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp
+
+CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp > CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.i
+
+CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp -o CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.s
+
 # Object files for target Uno
 Uno_OBJECTS = \
-"CMakeFiles/Uno.dir/main.cpp.o"
+"CMakeFiles/Uno.dir/main.cpp.o" \
+"CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o" \
+"CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o" \
+"CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o" \
+"CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o" \
+"CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o" \
+"CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o" \
+"CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o"
 
 # External object files for target Uno
 Uno_EXTERNAL_OBJECTS =
 
 Uno: CMakeFiles/Uno.dir/main.cpp.o
+Uno: CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o
+Uno: CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o
+Uno: CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o
+Uno: CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o
+Uno: CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o
+Uno: CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o
+Uno: CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o
 Uno: CMakeFiles/Uno.dir/build.make
 Uno: CMakeFiles/Uno.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Uno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Uno"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Uno.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
