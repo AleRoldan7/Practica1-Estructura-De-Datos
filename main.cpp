@@ -1,7 +1,9 @@
 #include <iostream>
 
-#include "objetos/carta/Carta.h"
-#include "objetos/lista/mazo-lista/MazoCartas.h"
+#include "clases/carta/Carta.h"
+#include "clases/lista/mazo-lista/MazoCartas.h"
+#include "logica-juego/creacion-jugador/CrearJugador.h"
+#include "logica-juego/reparticion-cartas/ReparteCartasJugador.h"
 using namespace std;
 
 int main() {
@@ -42,6 +44,7 @@ int main() {
      */
 
 
+     /*
      Carta manual(ROJO, CARTA_NUMERO, SIETE);
      std::cout << "Manual (debería ser roja):\n";
      manual.mostrarCarta();
@@ -55,8 +58,21 @@ int main() {
           Carta c = mazo.robarCarta();
           c.mostrarCarta();
      }
+     */
 
+     MazoCartas mazoCartas;
+     mazoCartas.revolverCartas();
 
+     CrearJugador crearJugador;
+     int cantidad = crearJugador.solicitarJugadores();
+     Jugador* jugador = crearJugador.crearJugadores(cantidad);
+
+     ReparteCartasJugador reparteCartasJugador;
+     reparteCartasJugador.repartirCartasJugador(mazoCartas, jugador, cantidad );
+
+     for (int i = 0; i < cantidad; i++) {
+          jugador[i].mostrarMano();
+     }
     return 0;
 
 }

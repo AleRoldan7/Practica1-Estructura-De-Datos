@@ -4,10 +4,14 @@
 
 #include "MazoCartas.h"
 
+#include <cstdlib>
+#include <ctime>
+
 #include "../../../utils/UtilColorCarta.h"
 
 MazoCartas::MazoCartas() {
     createMazo();
+    revolverCartas();
 }
 
 
@@ -16,11 +20,6 @@ void MazoCartas::createMazo() {
     ColorCarta colores[] = {
         ROJO, VERDE, AMARILLO, AZUL
     };
-
-    colorANSI(colores[0]);
-    colorANSI(colores[1]);
-    colorANSI(colores[2]);
-    colorANSI(colores[3]);
 
     for (int c = 0; c < 4; c++) {
         mazo.push(Carta(colores[c], CARTA_NUMERO, CERO));
@@ -55,3 +54,38 @@ Carta MazoCartas::robarCarta() {
 int MazoCartas::cartasRestantes() {
     return mazo.sizeMazo();
 }
+
+void MazoCartas::revolverCartas() {
+
+    if (mazo.sizeMazo() <= 1) return;
+
+    PilaMazo aux;
+    PilaMazo temp;
+
+    srand(time(nullptr));
+
+    // 1. Pasar todo a aux
+    while (!mazo.esVacia()) {
+        aux.push(mazo.pop());
+    }
+
+    // 2. Revolver
+    while (!aux.esVacia()) {
+
+        int saltos = rand() % aux.sizeMazo();
+
+        // mover cartas a temp
+        for (int i = 0; i < saltos; i++) {
+            temp.push(aux.pop());
+        }
+
+        // carta aleatoria al mazo
+        mazo.push(aux.pop());
+
+        // regresar cartas a aux
+        while (!temp.esVacia()) {
+            aux.push(temp.pop());
+        }
+    }
+}
+

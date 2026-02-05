@@ -17,6 +17,7 @@ private:
 
     Carta robarCarta();
     int cartasRestantes();
+    void revolverCartas();
 };
 
 

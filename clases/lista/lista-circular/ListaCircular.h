@@ -5,7 +5,7 @@
 #ifndef UNO_LISTACIRCULAR_H
 #define UNO_LISTACIRCULAR_H
 
-#include "../../jugador/jugador.h"
+#include "../../jugador/Jugador.h"
 
 /*Creacion de una lista circular que contendra a los jugadores*/
 
@@ -13,7 +13,7 @@ class ListaCircular {
 private:
     class NodoCircular {
         public:
-        jugador player;
+        Jugador player;
         NodoCircular* siguiente;
         NodoCircular* anterior;
     };
@@ -23,8 +23,8 @@ private:
     public:
     ListaCircular();
     ~ListaCircular();
-    void agregarPrimero(jugador j);
-    void agregarUltimo(jugador j);
+    void agregarPrimero(Jugador j);
+    void agregarUltimo(Jugador j);
     bool estaVacia();
     int cantidad();
 };

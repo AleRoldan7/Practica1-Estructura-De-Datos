@@ -25,7 +25,7 @@ ListaCircular::~ListaCircular() {
     }
 }
 
-void ListaCircular::agregarPrimero(jugador j) {
+void ListaCircular::agregarPrimero(Jugador j) {
 
     NodoCircular *nodo = new NodoCircular();
     nodo->player = j;
@@ -47,7 +47,7 @@ void ListaCircular::agregarPrimero(jugador j) {
     }
 }
 
-void ListaCircular::agregarUltimo(jugador j) {
+void ListaCircular::agregarUltimo(Jugador j) {
 
     NodoCircular *nodo = new NodoCircular();
     nodo->player = j;
