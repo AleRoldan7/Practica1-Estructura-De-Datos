@@ -13,6 +13,10 @@
 
 using namespace std;
 
+Carta::Carta() {
+
+}
+
 Carta::Carta(ColorCarta color, TipoCarta tipo, ValorCarta valor) {
 
     this->color = color;

@@ -24,8 +24,27 @@ void Jugador::mostrarMano() {
     manoJugador.mostrarMazoJugador();
 }
 
+void Jugador::mostrarManoConIndices() {
+    cout << "\nMano de " << nombreJugador << ":\n";
+    manoJugador.mostrarMazoJugadorConIndices();
+}
+
 int Jugador::cantidadCartas() {
     return manoJugador.sizeMazoJugador();
+}
+
+Carta Jugador::jugarCarta(int posicionCarta) {
+    Carta carta = manoJugador.obtenerCarta(posicionCarta);
+    manoJugador.eliminarCarta(posicionCarta);
+    return carta;
+}
+
+bool Jugador::ganoJugador() {
+    return cantidadCartas() == 0;
+}
+
+bool Jugador::tieneUno() {
+    return cantidadCartas() == 1;
 }
 
 string Jugador::getNombreJugador() {

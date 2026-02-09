@@ -129,6 +129,270 @@ Uno/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/build
 .PHONY : Uno/fast
 
+clases/carta/Carta.o: clases/carta/Carta.cpp.o
+.PHONY : clases/carta/Carta.o
+
+# target to build an object file
+clases/carta/Carta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/Carta.cpp.o
+.PHONY : clases/carta/Carta.cpp.o
+
+clases/carta/Carta.i: clases/carta/Carta.cpp.i
+.PHONY : clases/carta/Carta.i
+
+# target to preprocess a source file
+clases/carta/Carta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/Carta.cpp.i
+.PHONY : clases/carta/Carta.cpp.i
+
+clases/carta/Carta.s: clases/carta/Carta.cpp.s
+.PHONY : clases/carta/Carta.s
+
+# target to generate assembly for a file
+clases/carta/Carta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/Carta.cpp.s
+.PHONY : clases/carta/Carta.cpp.s
+
+clases/jugador/Jugador.o: clases/jugador/Jugador.cpp.o
+.PHONY : clases/jugador/Jugador.o
+
+# target to build an object file
+clases/jugador/Jugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o
+.PHONY : clases/jugador/Jugador.cpp.o
+
+clases/jugador/Jugador.i: clases/jugador/Jugador.cpp.i
+.PHONY : clases/jugador/Jugador.i
+
+# target to preprocess a source file
+clases/jugador/Jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.i
+.PHONY : clases/jugador/Jugador.cpp.i
+
+clases/jugador/Jugador.s: clases/jugador/Jugador.cpp.s
+.PHONY : clases/jugador/Jugador.s
+
+# target to generate assembly for a file
+clases/jugador/Jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.s
+.PHONY : clases/jugador/Jugador.cpp.s
+
+clases/lista/lista-circular/ListaCircular.o: clases/lista/lista-circular/ListaCircular.cpp.o
+.PHONY : clases/lista/lista-circular/ListaCircular.o
+
+# target to build an object file
+clases/lista/lista-circular/ListaCircular.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o
+.PHONY : clases/lista/lista-circular/ListaCircular.cpp.o
+
+clases/lista/lista-circular/ListaCircular.i: clases/lista/lista-circular/ListaCircular.cpp.i
+.PHONY : clases/lista/lista-circular/ListaCircular.i
+
+# target to preprocess a source file
+clases/lista/lista-circular/ListaCircular.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.i
+.PHONY : clases/lista/lista-circular/ListaCircular.cpp.i
+
+clases/lista/lista-circular/ListaCircular.s: clases/lista/lista-circular/ListaCircular.cpp.s
+.PHONY : clases/lista/lista-circular/ListaCircular.s
+
+# target to generate assembly for a file
+clases/lista/lista-circular/ListaCircular.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.s
+.PHONY : clases/lista/lista-circular/ListaCircular.cpp.s
+
+clases/lista/mazo-jugador/ListaMazoJugador.o: clases/lista/mazo-jugador/ListaMazoJugador.cpp.o
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.o
+
+# target to build an object file
+clases/lista/mazo-jugador/ListaMazoJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.cpp.o
+
+clases/lista/mazo-jugador/ListaMazoJugador.i: clases/lista/mazo-jugador/ListaMazoJugador.cpp.i
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.i
+
+# target to preprocess a source file
+clases/lista/mazo-jugador/ListaMazoJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.i
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.cpp.i
+
+clases/lista/mazo-jugador/ListaMazoJugador.s: clases/lista/mazo-jugador/ListaMazoJugador.cpp.s
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.s
+
+# target to generate assembly for a file
+clases/lista/mazo-jugador/ListaMazoJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.s
+.PHONY : clases/lista/mazo-jugador/ListaMazoJugador.cpp.s
+
+clases/lista/mazo-lista/MazoCartas.o: clases/lista/mazo-lista/MazoCartas.cpp.o
+.PHONY : clases/lista/mazo-lista/MazoCartas.o
+
+# target to build an object file
+clases/lista/mazo-lista/MazoCartas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.o
+.PHONY : clases/lista/mazo-lista/MazoCartas.cpp.o
+
+clases/lista/mazo-lista/MazoCartas.i: clases/lista/mazo-lista/MazoCartas.cpp.i
+.PHONY : clases/lista/mazo-lista/MazoCartas.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/MazoCartas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.i
+.PHONY : clases/lista/mazo-lista/MazoCartas.cpp.i
+
+clases/lista/mazo-lista/MazoCartas.s: clases/lista/mazo-lista/MazoCartas.cpp.s
+.PHONY : clases/lista/mazo-lista/MazoCartas.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/MazoCartas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.s
+.PHONY : clases/lista/mazo-lista/MazoCartas.cpp.s
+
+clases/lista/mazo-lista/NodoMazo.o: clases/lista/mazo-lista/NodoMazo.cpp.o
+.PHONY : clases/lista/mazo-lista/NodoMazo.o
+
+# target to build an object file
+clases/lista/mazo-lista/NodoMazo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.o
+.PHONY : clases/lista/mazo-lista/NodoMazo.cpp.o
+
+clases/lista/mazo-lista/NodoMazo.i: clases/lista/mazo-lista/NodoMazo.cpp.i
+.PHONY : clases/lista/mazo-lista/NodoMazo.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/NodoMazo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.i
+.PHONY : clases/lista/mazo-lista/NodoMazo.cpp.i
+
+clases/lista/mazo-lista/NodoMazo.s: clases/lista/mazo-lista/NodoMazo.cpp.s
+.PHONY : clases/lista/mazo-lista/NodoMazo.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/NodoMazo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.s
+.PHONY : clases/lista/mazo-lista/NodoMazo.cpp.s
+
+clases/lista/mazo-lista/PilaMazo.o: clases/lista/mazo-lista/PilaMazo.cpp.o
+.PHONY : clases/lista/mazo-lista/PilaMazo.o
+
+# target to build an object file
+clases/lista/mazo-lista/PilaMazo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o
+.PHONY : clases/lista/mazo-lista/PilaMazo.cpp.o
+
+clases/lista/mazo-lista/PilaMazo.i: clases/lista/mazo-lista/PilaMazo.cpp.i
+.PHONY : clases/lista/mazo-lista/PilaMazo.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/PilaMazo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.i
+.PHONY : clases/lista/mazo-lista/PilaMazo.cpp.i
+
+clases/lista/mazo-lista/PilaMazo.s: clases/lista/mazo-lista/PilaMazo.cpp.s
+.PHONY : clases/lista/mazo-lista/PilaMazo.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/PilaMazo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.s
+.PHONY : clases/lista/mazo-lista/PilaMazo.cpp.s
+
+logica-juego/creacion-jugador/CrearJugador.o: logica-juego/creacion-jugador/CrearJugador.cpp.o
+.PHONY : logica-juego/creacion-jugador/CrearJugador.o
+
+# target to build an object file
+logica-juego/creacion-jugador/CrearJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o
+.PHONY : logica-juego/creacion-jugador/CrearJugador.cpp.o
+
+logica-juego/creacion-jugador/CrearJugador.i: logica-juego/creacion-jugador/CrearJugador.cpp.i
+.PHONY : logica-juego/creacion-jugador/CrearJugador.i
+
+# target to preprocess a source file
+logica-juego/creacion-jugador/CrearJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.i
+.PHONY : logica-juego/creacion-jugador/CrearJugador.cpp.i
+
+logica-juego/creacion-jugador/CrearJugador.s: logica-juego/creacion-jugador/CrearJugador.cpp.s
+.PHONY : logica-juego/creacion-jugador/CrearJugador.s
+
+# target to generate assembly for a file
+logica-juego/creacion-jugador/CrearJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.s
+.PHONY : logica-juego/creacion-jugador/CrearJugador.cpp.s
+
+logica-juego/flujo-juego/TurnosJuego.o: logica-juego/flujo-juego/TurnosJuego.cpp.o
+.PHONY : logica-juego/flujo-juego/TurnosJuego.o
+
+# target to build an object file
+logica-juego/flujo-juego/TurnosJuego.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
+.PHONY : logica-juego/flujo-juego/TurnosJuego.cpp.o
+
+logica-juego/flujo-juego/TurnosJuego.i: logica-juego/flujo-juego/TurnosJuego.cpp.i
+.PHONY : logica-juego/flujo-juego/TurnosJuego.i
+
+# target to preprocess a source file
+logica-juego/flujo-juego/TurnosJuego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.i
+.PHONY : logica-juego/flujo-juego/TurnosJuego.cpp.i
+
+logica-juego/flujo-juego/TurnosJuego.s: logica-juego/flujo-juego/TurnosJuego.cpp.s
+.PHONY : logica-juego/flujo-juego/TurnosJuego.s
+
+# target to generate assembly for a file
+logica-juego/flujo-juego/TurnosJuego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.s
+.PHONY : logica-juego/flujo-juego/TurnosJuego.cpp.s
+
+logica-juego/reglas/ReglasJuego.o: logica-juego/reglas/ReglasJuego.cpp.o
+.PHONY : logica-juego/reglas/ReglasJuego.o
+
+# target to build an object file
+logica-juego/reglas/ReglasJuego.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o
+.PHONY : logica-juego/reglas/ReglasJuego.cpp.o
+
+logica-juego/reglas/ReglasJuego.i: logica-juego/reglas/ReglasJuego.cpp.i
+.PHONY : logica-juego/reglas/ReglasJuego.i
+
+# target to preprocess a source file
+logica-juego/reglas/ReglasJuego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.i
+.PHONY : logica-juego/reglas/ReglasJuego.cpp.i
+
+logica-juego/reglas/ReglasJuego.s: logica-juego/reglas/ReglasJuego.cpp.s
+.PHONY : logica-juego/reglas/ReglasJuego.s
+
+# target to generate assembly for a file
+logica-juego/reglas/ReglasJuego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.s
+.PHONY : logica-juego/reglas/ReglasJuego.cpp.s
+
+logica-juego/reparticion-cartas/ReparteCartasJugador.o: logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.o
+
+# target to build an object file
+logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
+
+logica-juego/reparticion-cartas/ReparteCartasJugador.i: logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.i
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.i
+
+# target to preprocess a source file
+logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.i
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.i
+
+logica-juego/reparticion-cartas/ReparteCartasJugador.s: logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.s
+
+# target to generate assembly for a file
+logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s
+.PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,101 +417,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-objetos/carta/Carta.o: objetos/carta/Carta.cpp.o
-.PHONY : objetos/carta/Carta.o
+utils/CentrarTexto.o: utils/CentrarTexto.cpp.o
+.PHONY : utils/CentrarTexto.o
 
 # target to build an object file
-objetos/carta/Carta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.o
-.PHONY : objetos/carta/Carta.cpp.o
+utils/CentrarTexto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/CentrarTexto.cpp.o
+.PHONY : utils/CentrarTexto.cpp.o
 
-objetos/carta/Carta.i: objetos/carta/Carta.cpp.i
-.PHONY : objetos/carta/Carta.i
+utils/CentrarTexto.i: utils/CentrarTexto.cpp.i
+.PHONY : utils/CentrarTexto.i
 
 # target to preprocess a source file
-objetos/carta/Carta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.i
-.PHONY : objetos/carta/Carta.cpp.i
+utils/CentrarTexto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/CentrarTexto.cpp.i
+.PHONY : utils/CentrarTexto.cpp.i
 
-objetos/carta/Carta.s: objetos/carta/Carta.cpp.s
-.PHONY : objetos/carta/Carta.s
+utils/CentrarTexto.s: utils/CentrarTexto.cpp.s
+.PHONY : utils/CentrarTexto.s
 
 # target to generate assembly for a file
-objetos/carta/Carta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/carta/Carta.cpp.s
-.PHONY : objetos/carta/Carta.cpp.s
+utils/CentrarTexto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/CentrarTexto.cpp.s
+.PHONY : utils/CentrarTexto.cpp.s
 
-objetos/jugador/jugador.o: objetos/jugador/jugador.cpp.o
-.PHONY : objetos/jugador/jugador.o
+utils/LimpiarPantalla.o: utils/LimpiarPantalla.cpp.o
+.PHONY : utils/LimpiarPantalla.o
 
 # target to build an object file
-objetos/jugador/jugador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.o
-.PHONY : objetos/jugador/jugador.cpp.o
+utils/LimpiarPantalla.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o
+.PHONY : utils/LimpiarPantalla.cpp.o
 
-objetos/jugador/jugador.i: objetos/jugador/jugador.cpp.i
-.PHONY : objetos/jugador/jugador.i
-
-# target to preprocess a source file
-objetos/jugador/jugador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.i
-.PHONY : objetos/jugador/jugador.cpp.i
-
-objetos/jugador/jugador.s: objetos/jugador/jugador.cpp.s
-.PHONY : objetos/jugador/jugador.s
-
-# target to generate assembly for a file
-objetos/jugador/jugador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/jugador/jugador.cpp.s
-.PHONY : objetos/jugador/jugador.cpp.s
-
-objetos/lista/lista-circular/ListaCircular.o: objetos/lista/lista-circular/ListaCircular.cpp.o
-.PHONY : objetos/lista/lista-circular/ListaCircular.o
-
-# target to build an object file
-objetos/lista/lista-circular/ListaCircular.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.o
-.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.o
-
-objetos/lista/lista-circular/ListaCircular.i: objetos/lista/lista-circular/ListaCircular.cpp.i
-.PHONY : objetos/lista/lista-circular/ListaCircular.i
+utils/LimpiarPantalla.i: utils/LimpiarPantalla.cpp.i
+.PHONY : utils/LimpiarPantalla.i
 
 # target to preprocess a source file
-objetos/lista/lista-circular/ListaCircular.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.i
-.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.i
+utils/LimpiarPantalla.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.i
+.PHONY : utils/LimpiarPantalla.cpp.i
 
-objetos/lista/lista-circular/ListaCircular.s: objetos/lista/lista-circular/ListaCircular.cpp.s
-.PHONY : objetos/lista/lista-circular/ListaCircular.s
-
-# target to generate assembly for a file
-objetos/lista/lista-circular/ListaCircular.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/lista-circular/ListaCircular.cpp.s
-.PHONY : objetos/lista/lista-circular/ListaCircular.cpp.s
-
-objetos/lista/mazo-lista/MazoLista.o: objetos/lista/mazo-lista/MazoLista.cpp.o
-.PHONY : objetos/lista/mazo-lista/MazoLista.o
-
-# target to build an object file
-objetos/lista/mazo-lista/MazoLista.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.o
-.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.o
-
-objetos/lista/mazo-lista/MazoLista.i: objetos/lista/mazo-lista/MazoLista.cpp.i
-.PHONY : objetos/lista/mazo-lista/MazoLista.i
-
-# target to preprocess a source file
-objetos/lista/mazo-lista/MazoLista.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.i
-.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.i
-
-objetos/lista/mazo-lista/MazoLista.s: objetos/lista/mazo-lista/MazoLista.cpp.s
-.PHONY : objetos/lista/mazo-lista/MazoLista.s
+utils/LimpiarPantalla.s: utils/LimpiarPantalla.cpp.s
+.PHONY : utils/LimpiarPantalla.s
 
 # target to generate assembly for a file
-objetos/lista/mazo-lista/MazoLista.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/objetos/lista/mazo-lista/MazoLista.cpp.s
-.PHONY : objetos/lista/mazo-lista/MazoLista.cpp.s
+utils/LimpiarPantalla.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.s
+.PHONY : utils/LimpiarPantalla.cpp.s
 
 utils/UtilColorCarta.o: utils/UtilColorCarta.cpp.o
 .PHONY : utils/UtilColorCarta.o
@@ -330,21 +546,48 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Uno"
+	@echo "... clases/carta/Carta.o"
+	@echo "... clases/carta/Carta.i"
+	@echo "... clases/carta/Carta.s"
+	@echo "... clases/jugador/Jugador.o"
+	@echo "... clases/jugador/Jugador.i"
+	@echo "... clases/jugador/Jugador.s"
+	@echo "... clases/lista/lista-circular/ListaCircular.o"
+	@echo "... clases/lista/lista-circular/ListaCircular.i"
+	@echo "... clases/lista/lista-circular/ListaCircular.s"
+	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.o"
+	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.i"
+	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.s"
+	@echo "... clases/lista/mazo-lista/MazoCartas.o"
+	@echo "... clases/lista/mazo-lista/MazoCartas.i"
+	@echo "... clases/lista/mazo-lista/MazoCartas.s"
+	@echo "... clases/lista/mazo-lista/NodoMazo.o"
+	@echo "... clases/lista/mazo-lista/NodoMazo.i"
+	@echo "... clases/lista/mazo-lista/NodoMazo.s"
+	@echo "... clases/lista/mazo-lista/PilaMazo.o"
+	@echo "... clases/lista/mazo-lista/PilaMazo.i"
+	@echo "... clases/lista/mazo-lista/PilaMazo.s"
+	@echo "... logica-juego/creacion-jugador/CrearJugador.o"
+	@echo "... logica-juego/creacion-jugador/CrearJugador.i"
+	@echo "... logica-juego/creacion-jugador/CrearJugador.s"
+	@echo "... logica-juego/flujo-juego/TurnosJuego.o"
+	@echo "... logica-juego/flujo-juego/TurnosJuego.i"
+	@echo "... logica-juego/flujo-juego/TurnosJuego.s"
+	@echo "... logica-juego/reglas/ReglasJuego.o"
+	@echo "... logica-juego/reglas/ReglasJuego.i"
+	@echo "... logica-juego/reglas/ReglasJuego.s"
+	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.o"
+	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.i"
+	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... objetos/carta/Carta.o"
-	@echo "... objetos/carta/Carta.i"
-	@echo "... objetos/carta/Carta.s"
-	@echo "... objetos/jugador/jugador.o"
-	@echo "... objetos/jugador/jugador.i"
-	@echo "... objetos/jugador/jugador.s"
-	@echo "... objetos/lista/lista-circular/ListaCircular.o"
-	@echo "... objetos/lista/lista-circular/ListaCircular.i"
-	@echo "... objetos/lista/lista-circular/ListaCircular.s"
-	@echo "... objetos/lista/mazo-lista/MazoLista.o"
-	@echo "... objetos/lista/mazo-lista/MazoLista.i"
-	@echo "... objetos/lista/mazo-lista/MazoLista.s"
+	@echo "... utils/CentrarTexto.o"
+	@echo "... utils/CentrarTexto.i"
+	@echo "... utils/CentrarTexto.s"
+	@echo "... utils/LimpiarPantalla.o"
+	@echo "... utils/LimpiarPantalla.i"
+	@echo "... utils/LimpiarPantalla.s"
 	@echo "... utils/UtilColorCarta.o"
 	@echo "... utils/UtilColorCarta.i"
 	@echo "... utils/UtilColorCarta.s"

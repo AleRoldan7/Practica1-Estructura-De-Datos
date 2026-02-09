@@ -38,4 +38,6 @@ add_executable(Uno main.cpp
         logica-juego/reglas/ReglasJuego.h
         logica-juego/flujo-juego/TurnosJuego.cpp
         logica-juego/flujo-juego/TurnosJuego.h
+        utils/LimpiarPantalla.cpp
+        utils/LimpiarPantalla.h
 )

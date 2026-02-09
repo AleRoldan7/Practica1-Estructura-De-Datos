@@ -18,7 +18,11 @@ public:
 
     void insertarCartasOrdenada(Carta carta);
     void mostrarMazoJugador();
+    void mostrarMazoJugadorConIndices();
     int sizeMazoJugador();
+    Carta jugarCarta(int posicionCarta);
+    Carta obtenerCarta(int posicionCarta);
+    void eliminarCarta(int posicionCarta);
 };
 
 

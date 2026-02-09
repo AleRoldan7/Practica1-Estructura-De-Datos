@@ -18,8 +18,7 @@ private:
     public:
     Carta();
     Carta(ColorCarta color, TipoCarta tipo, ValorCarta valor);
-    Carta(const Carta& otra)
-        : color(otra.color), tipo(otra.tipo), valor(otra.valor) {}
+    Carta(const Carta& otra) : color(otra.color), tipo(otra.tipo), valor(otra.valor) {}
 
     ColorCarta getColor();
     void setColor(ColorCarta color);

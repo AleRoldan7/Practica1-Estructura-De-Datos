@@ -23,8 +23,11 @@ class Jugador {
 
     void recibirCarta(Carta carta);
     void mostrarMano();
+    void mostrarManoConIndices();
     int cantidadCartas();
-
+    Carta jugarCarta(int posicionCarta);
+    bool tieneUno();
+    bool ganoJugador();
     string getNombreJugador();
 };
 

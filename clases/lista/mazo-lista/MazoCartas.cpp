@@ -39,12 +39,16 @@ void MazoCartas::createMazo() {
 
         mazo.push(Carta(colores[c], CARTA_ACCION, TOMA_2));
         mazo.push(Carta(colores[c], CARTA_ACCION, TOMA_2));
+
+        mazo.push(Carta(colores[c], CARTA_ACCION, BLOQUEO));
+        mazo.push(Carta(colores[c], CARTA_ACCION, BLOQUEO));
     }
 
     for (int i = 0; i < 4; i++) {
         mazo.push(Carta(NEGRA, CARTA_COMODIN, CAMBIA_COLOR));
         mazo.push(Carta(NEGRA, CARTA_COMODIN, TOMA_4));
     }
+
 }
 
 Carta MazoCartas::robarCarta() {
@@ -64,25 +68,20 @@ void MazoCartas::revolverCartas() {
 
     srand(time(nullptr));
 
-    // 1. Pasar todo a aux
     while (!mazo.esVacia()) {
         aux.push(mazo.pop());
     }
 
-    // 2. Revolver
     while (!aux.esVacia()) {
 
         int saltos = rand() % aux.sizeMazo();
 
-        // mover cartas a temp
         for (int i = 0; i < saltos; i++) {
             temp.push(aux.pop());
         }
 
-        // carta aleatoria al mazo
         mazo.push(aux.pop());
 
-        // regresar cartas a aux
         while (!temp.esVacia()) {
             aux.push(temp.pop());
         }

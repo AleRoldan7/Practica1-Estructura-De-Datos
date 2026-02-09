@@ -4,3 +4,8 @@
 
 #include "NodoMazo.h"
 
+NodoMazo::NodoMazo() {
+    this->carta = carta;
+    this->sigueinte = nullptr;
+}
+
