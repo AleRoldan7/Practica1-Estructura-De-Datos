@@ -3,6 +3,7 @@
 #include "clases/carta/Carta.h"
 #include "clases/lista/mazo-lista/MazoCartas.h"
 #include "logica-juego/creacion-jugador/CrearJugador.h"
+#include "logica-juego/flujo-juego/GritoUNO.h"
 #include "logica-juego/flujo-juego/TurnosJuego.h"
 #include "logica-juego/reglas/ReglasJuego.h"
 #include "logica-juego/reparticion-cartas/ReparteCartasJugador.h"
@@ -104,7 +105,7 @@ int main() {
           Jugador& actual = turnos.jugadorActual();
 
           cout << "Turno de: " << actual.getNombreJugador() << endl;
-          cout << "Carta en mesa:\n";
+          cout << "Carta en mesa:\n";3
           cartaMesa.mostrarCarta();
 
           // SIMULACIÓN: jugador roba y juega esa carta
@@ -126,16 +127,15 @@ int main() {
      */
 
 
-
-    MazoCartas mazo;
-    cout << "Mazo creado con " << mazo.cartasRestantes() << " cartas\n\n";
-
     CrearJugador creador;
     int cantidad = creador.solicitarJugadores();
     Jugador* jugadores = creador.crearJugadores(cantidad);
 
+    MazoCartas mazo(cantidad);
+    cout<<"Mazo creado con "<<mazo.cartasRestantes()<<" cartas"<<endl;
+
     for (int i = 0; i < cantidad; i++) {
-        for (int j = 0; j < 7; j++) {
+        for (int j = 0; j < 2; j++) {
             jugadores[i].recibirCarta(mazo.robarCarta());
         }
     }
@@ -145,37 +145,37 @@ int main() {
         cartaMesa = mazo.robarCarta();
     } while (cartaMesa.getTipo() == CARTA_COMODIN);
 
-    cout << "\nCarta inicial en mesa:\n";
+    cout<<"Carta inicial en mesa: "<<endl;
     cartaMesa.mostrarCarta();
 
     TurnosJuego turnos(jugadores, cantidad);
     ReglasJuego reglas;
+    GritoUNO gritoUNo;
 
     while (true) {
 
-        limpiarPantalla();
-
+        gritoUNo.reportarJugador(jugadores, cantidad, mazo);
         Jugador& actual = turnos.jugadorActual();
 
-        cout << "====================================\n";
-        cout << "Turno de: " << actual.getNombreJugador() << endl;
-        cout << "====================================\n\n";
+        cout<<"===================================="<<endl;
+        cout<<"Turno de: "<<actual.getNombreJugador()<<endl;
+        cout<<"===================================="<<endl;
 
-        cout << "Carta en mesa:\n";
+        cout<<"Carta en mesa: "<<endl;
         cartaMesa.mostrarCarta();
 
         actual.mostrarManoConIndices();
 
-        cout << "\nOpciones:\n";
-        cout << "  -1 → Robar carta\n";
-        cout << "   0..N → Jugar carta por indice\n";
+        cout<<"Opciones: "<<endl;
+        cout<<"-1 → Robar carta"<<endl;
+        cout<<"0..N → Jugar carta por indice "<<endl;
 
         int opcion;
-        cout << "Elige opcion: ";
-        cin >> opcion;
+        cout<<"Elige opcion: ";
+        cin>>opcion;
 
         if (opcion == -1) {
-            cout << "Robando carta...\n";
+            cout<<"Robando carta..."<<endl;
             actual.recibirCarta(mazo.robarCarta());
             turnos.siguienteTurno();
             continue;
@@ -185,7 +185,7 @@ int main() {
             Carta jugada = actual.jugarCarta(opcion);
 
             if (!reglas.cartaValida(cartaMesa, jugada)) {
-                cout << " Carta invalida. Robas una carta.\n";
+                cout<<"Carta invalida. Robas una carta."<<endl;
                 actual.recibirCarta(jugada);
                 actual.recibirCarta(mazo.robarCarta());
                 turnos.siguienteTurno();
@@ -195,26 +195,24 @@ int main() {
             cartaMesa = jugada;
             reglas.efectoCarta(jugada, turnos, mazo, jugadores, cantidad);
 
-            if (actual.cantidadCartas() == 1) {
-                cout << "¡¡UNO!!\n";
-            }
+            gritoUNo.comprobarUno(turnos);
+
 
             if (actual.cantidadCartas() == 0) {
-                cout << "\n GANADOR: " << actual.getNombreJugador() << " 🏆\n";
+                cout<<"GANADOR: "<<actual.getNombreJugador()<<endl;
                 break;
             }
 
-            cout << "\nPresiona ENTER para terminar tu turno...";
+            cout<<"Presiona ENTER para terminar tu turno..."<<endl;
             cin.ignore();
             cin.get();
 
             turnos.siguienteTurno();
 
         } catch (exception& e) {
-            cout << "Error: " << e.what() << endl;
+            cout<<"Error: "<< e.what()<<endl;
         }
     }
-
 
      delete[] jugadores;
 

@@ -41,7 +41,6 @@ void Carta::mostrarCarta() {
 
 
 
-
 ColorCarta Carta::getColor() {
     return color;
 }

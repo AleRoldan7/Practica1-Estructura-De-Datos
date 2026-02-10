@@ -36,7 +36,7 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
 
         case REVERSE:
             turnos.invertirDireccion();
-            return false;
+            return true;
 
         case TOMA_1: {
             turnos.siguienteTurno();
@@ -48,32 +48,36 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
         case TOMA_2: {
             turnos.siguienteTurno();
             Jugador& jugadorAfectado = turnos.jugadorActual();
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 2; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
+            }
             return true;
         }
 
         case TOMA_3: {
             turnos.siguienteTurno();
             Jugador& jugadorAfectado = turnos.jugadorActual();
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
+            }
             return true;
         }
 
         case TOMA_4: {
             turnos.siguienteTurno();
             Jugador& jugadorAfectado = turnos.jugadorActual();
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
+            }
             return true;
         }
 
         case TOMA_6: {
             turnos.siguienteTurno();
             Jugador& jugadorAfectado = turnos.jugadorActual();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 6; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
+            }
             return true;
         }
 
@@ -87,3 +91,5 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             return false;
     }
 }
+
+

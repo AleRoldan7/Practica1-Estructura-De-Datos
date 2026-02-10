@@ -10,11 +10,11 @@
 class MazoCartas {
 private:
     PilaMazo mazo;
-    void createMazo();
+    void createMazoInicial();
 
     public:
     MazoCartas();
-
+    MazoCartas(int cantidadJugadores);
     Carta robarCarta();
     int cartasRestantes();
     void revolverCartas();

@@ -25,7 +25,7 @@ void Jugador::mostrarMano() {
 }
 
 void Jugador::mostrarManoConIndices() {
-    cout << "\nMano de " << nombreJugador << ":\n";
+    cout << "Mano de " << nombreJugador << ": "<<endl;
     manoJugador.mostrarMazoJugadorConIndices();
 }
 

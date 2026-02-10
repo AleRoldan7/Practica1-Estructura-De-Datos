@@ -1,7 +1,10 @@
-CMakeFiles/Uno.dir/main.cpp.o: \
- /home/alejandro/CLionProjects/Practica1/Uno/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp \
+ /usr/include/stdc-predef.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/Jugador.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -155,26 +158,11 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/CartaColor.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/TipoCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/ValorCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/../../carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/Jugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/Jugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/../../clases/carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/../flujo-juego/TurnosJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/jugador/Jugador.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/lista/mazo-lista/MazoCartas.h \
- /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/PilaMazo.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/NodoMazo.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/CartaColor.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/TipoCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/ValorCarta.h

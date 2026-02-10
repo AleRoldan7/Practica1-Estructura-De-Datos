@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o.d"
   "CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o"
   "CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o.d"
+  "CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o"
+  "CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o.d"
   "CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o"
   "CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o.d"
   "CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o"

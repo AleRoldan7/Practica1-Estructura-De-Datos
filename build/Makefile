@@ -321,6 +321,30 @@ logica-juego/creacion-jugador/CrearJugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.s
 .PHONY : logica-juego/creacion-jugador/CrearJugador.cpp.s
 
+logica-juego/flujo-juego/GritoUNO.o: logica-juego/flujo-juego/GritoUNO.cpp.o
+.PHONY : logica-juego/flujo-juego/GritoUNO.o
+
+# target to build an object file
+logica-juego/flujo-juego/GritoUNO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o
+.PHONY : logica-juego/flujo-juego/GritoUNO.cpp.o
+
+logica-juego/flujo-juego/GritoUNO.i: logica-juego/flujo-juego/GritoUNO.cpp.i
+.PHONY : logica-juego/flujo-juego/GritoUNO.i
+
+# target to preprocess a source file
+logica-juego/flujo-juego/GritoUNO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.i
+.PHONY : logica-juego/flujo-juego/GritoUNO.cpp.i
+
+logica-juego/flujo-juego/GritoUNO.s: logica-juego/flujo-juego/GritoUNO.cpp.s
+.PHONY : logica-juego/flujo-juego/GritoUNO.s
+
+# target to generate assembly for a file
+logica-juego/flujo-juego/GritoUNO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s
+.PHONY : logica-juego/flujo-juego/GritoUNO.cpp.s
+
 logica-juego/flujo-juego/TurnosJuego.o: logica-juego/flujo-juego/TurnosJuego.cpp.o
 .PHONY : logica-juego/flujo-juego/TurnosJuego.o
 
@@ -570,6 +594,9 @@ help:
 	@echo "... logica-juego/creacion-jugador/CrearJugador.o"
 	@echo "... logica-juego/creacion-jugador/CrearJugador.i"
 	@echo "... logica-juego/creacion-jugador/CrearJugador.s"
+	@echo "... logica-juego/flujo-juego/GritoUNO.o"
+	@echo "... logica-juego/flujo-juego/GritoUNO.i"
+	@echo "... logica-juego/flujo-juego/GritoUNO.s"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.o"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.i"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.s"
