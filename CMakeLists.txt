@@ -34,8 +34,8 @@ add_executable(Uno main.cpp
         logica-juego/creacion-jugador/CrearJugador.h
         logica-juego/reparticion-cartas/ReparteCartasJugador.cpp
         logica-juego/reparticion-cartas/ReparteCartasJugador.h
-        logica-juego/reglas/ReglasJuego.cpp
-        logica-juego/reglas/ReglasJuego.h
+        logica-juego/efecto-cartas/ReglasJuego.cpp
+        logica-juego/efecto-cartas/ReglasJuego.h
         logica-juego/flujo-juego/TurnosJuego.cpp
         logica-juego/flujo-juego/TurnosJuego.h
         utils/LimpiarPantalla.cpp

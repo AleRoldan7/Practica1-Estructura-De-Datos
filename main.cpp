@@ -5,7 +5,7 @@
 #include "logica-juego/creacion-jugador/CrearJugador.h"
 #include "logica-juego/flujo-juego/GritoUNO.h"
 #include "logica-juego/flujo-juego/TurnosJuego.h"
-#include "logica-juego/reglas/ReglasJuego.h"
+#include "logica-juego/efecto-cartas/ReglasJuego.h"
 #include "logica-juego/reparticion-cartas/ReparteCartasJugador.h"
 #include "utils/LimpiarPantalla.h"
 using namespace std;
@@ -154,8 +154,12 @@ int main() {
 
     while (true) {
 
-        gritoUNo.reportarJugador(jugadores, cantidad, mazo);
+        gritoUNo.reportarJugador(turnos, mazo);
         Jugador& actual = turnos.jugadorActual();
+
+        cout<<"================================"<<endl;
+        cout<<"Mazo de cartas: "<<mazo.cartasRestantes()<<endl;
+        cout<<"================================"<<endl;
 
         cout<<"===================================="<<endl;
         cout<<"Turno de: "<<actual.getNombreJugador()<<endl;
@@ -175,7 +179,7 @@ int main() {
         cin>>opcion;
 
         if (opcion == -1) {
-            cout<<"Robando carta..."<<endl;
+            cout<<"Robando carta "<<endl;
             actual.recibirCarta(mazo.robarCarta());
             turnos.siguienteTurno();
             continue;
@@ -184,7 +188,7 @@ int main() {
         try {
             Carta jugada = actual.jugarCarta(opcion);
 
-            if (!reglas.cartaValida(cartaMesa, jugada)) {
+            if (!reglas.cartaValida(jugada, cartaMesa)) {
                 cout<<"Carta invalida. Robas una carta."<<endl;
                 actual.recibirCarta(jugada);
                 actual.recibirCarta(mazo.robarCarta());
@@ -193,7 +197,7 @@ int main() {
             }
 
             cartaMesa = jugada;
-            reglas.efectoCarta(jugada, turnos, mazo, jugadores, cantidad);
+            bool efecto = reglas.efectoCarta(jugada, turnos, mazo, jugadores, cantidad);
 
             gritoUNo.comprobarUno(turnos);
 
@@ -207,7 +211,9 @@ int main() {
             cin.ignore();
             cin.get();
 
-            turnos.siguienteTurno();
+            if (!efecto) {
+                turnos.siguienteTurno();
+            }
 
         } catch (exception& e) {
             cout<<"Error: "<< e.what()<<endl;

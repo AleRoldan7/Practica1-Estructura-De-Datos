@@ -16,7 +16,7 @@ private:
     GritoUNO();
 
     void comprobarUno(TurnosJuego& turnos);
-    void reportarJugador(Jugador* jugador, int cantidad, MazoCartas& mazo);
+    void reportarJugador(TurnosJuego&  turnos, MazoCartas& mazo);
     bool unoPendiente()const;
 };
 

@@ -22,16 +22,12 @@ Jugador& TurnosJuego::jugadorActual() {
     return jugador[indiceActual];
 }
 
+Jugador& TurnosJuego::getJugador(int indice) {
+    return jugador[indice];
+}
+
 void TurnosJuego::siguienteTurno() {
-    indiceActual = direccion + indiceActual;
-
-    if (indiceActual >= cantidadJugadores) {
-        indiceActual = 0;
-    }
-
-    if (indiceActual < 0) {
-        indiceActual = cantidadJugadores - 1;
-    }
+    indiceActual = (indiceActual + direccion + cantidadJugadores) % cantidadJugadores;
 }
 
 void TurnosJuego::saltarTurno() {

@@ -35,7 +35,11 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             return true;
 
         case REVERSE:
-            turnos.invertirDireccion();
+            if (cantidadJugadores == 2) {
+                turnos.saltarTurno();
+            } else {
+                turnos.invertirDireccion();
+            }
             return true;
 
         case TOMA_1: {
@@ -51,6 +55,7 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             for (int i = 0; i < 2; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
             }
+            turnos.siguienteTurno();
             return true;
         }
 
@@ -60,6 +65,7 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             for (int i = 0; i < 3; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
             }
+            turnos.siguienteTurno();
             return true;
         }
 
@@ -69,6 +75,7 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             for (int i = 0; i < 4; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
             }
+            turnos.siguienteTurno();
             return true;
         }
 
@@ -78,13 +85,11 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
             for (int i = 0; i < 6; i++) {
                 jugadorAfectado.recibirCarta(mazo.robarCarta());
             }
+            turnos.siguienteTurno();
             return true;
         }
 
         case CAMBIA_COLOR:
-            return false;
-
-        case BLOQUEO:
             return false;
 
         default:
@@ -92,4 +97,6 @@ bool ReglasJuego::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &maz
     }
 }
 
-
+bool ReglasJuego::victoriaJugador(Jugador &jugador) {
+    return jugador.cantidadCartas() == 0;
+}

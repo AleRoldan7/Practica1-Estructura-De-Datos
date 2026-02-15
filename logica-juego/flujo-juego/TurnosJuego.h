@@ -23,7 +23,7 @@ public:
     void saltarTurno();
     void siguienteTurno();
     void invertirDireccion();
-
+    Jugador& getJugador(int indice);
     int getIndiceActual();
 };
 

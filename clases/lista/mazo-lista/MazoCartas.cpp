@@ -66,36 +66,28 @@ void MazoCartas::createMazoInicial() {
 
     ColorCarta colores[] = { ROJO, VERDE, AMARILLO, AZUL };
 
-    // ===== CARTAS NUMÉRICAS =====
     for (int c = 0; c < 4; c++) {
 
-        // 1 carta 0 por color
         mazo.push(Carta(colores[c], CARTA_NUMERO, CERO));
 
-        // 2 cartas del 1 al 9 por color
         for (int v = UNO; v <= NUEVE; v++) {
             mazo.push(Carta(colores[c], CARTA_NUMERO, (ValorCarta)v));
             mazo.push(Carta(colores[c], CARTA_NUMERO, (ValorCarta)v));
         }
     }
 
-    // ===== CARTAS DE ACCIÓN =====
     for (int c = 0; c < 4; c++) {
 
-        // +2
         mazo.push(Carta(colores[c], CARTA_ACCION, TOMA_2));
         mazo.push(Carta(colores[c], CARTA_ACCION, TOMA_2));
 
-        // Reversa
         mazo.push(Carta(colores[c], CARTA_ACCION, REVERSE));
         mazo.push(Carta(colores[c], CARTA_ACCION, REVERSE));
 
-        // Salto
         mazo.push(Carta(colores[c], CARTA_ACCION, SALTO));
         mazo.push(Carta(colores[c], CARTA_ACCION, SALTO));
     }
 
-    // ===== COMODINES =====
     for (int i = 0; i < 4; i++) {
         mazo.push(Carta(NEGRA, CARTA_COMODIN, CAMBIA_COLOR));
         mazo.push(Carta(NEGRA, CARTA_COMODIN, TOMA_4));

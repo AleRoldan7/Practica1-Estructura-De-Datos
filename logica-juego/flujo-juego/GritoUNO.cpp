@@ -32,31 +32,29 @@ void GritoUNO::comprobarUno(TurnosJuego &turnos) {
     }
 }
 
-void GritoUNO::reportarJugador(Jugador *jugador, int cantidad, MazoCartas &mazo) {
+void GritoUNO::reportarJugador(TurnosJuego& turnos, MazoCartas &mazo) {
+
+    if (!gritoPendiente) return;
+
+    int indiceJugadorReportado = turnos.getIndiceActual();
+
+    if (indiceJugadorReportado == indiceJugador) {
+        gritoPendiente = false;
+        return;
+    }
+
+    Jugador& jugador = turnos.jugadorActual();
 
     char opcion;
 
-    if (!gritoPendiente) return;
-    cout<<"¿Reportar al jugador que no grito 'UNO' "<<jugador[indiceJugador].getNombreJugador()<< "? (Si/No)";
-    cin>>opcion;
+    cout << "¿Reportar al jugador que no gritó UNO? (s/n): ";
+    cin >> opcion;
 
-    if (opcion == 'S' || opcion == 's') {
-        cout << "Ingrese índice del jugador que reporta: ";
-        int reportador;
-        cin >> reportador;
+    if (opcion == 's' || opcion == 'S') {
+        cout << "Reporte válido. El jugador roba 2 cartas.\n";
 
-        if (reportador >= 0 && reportador < cantidad &&
-            reportador != indiceJugador) {
-
-            cout << "Reporte válido. El jugador roba 2 cartas.\n";
-            jugador[indiceJugador].recibirCarta(mazo.robarCarta());
-            jugador[indiceJugador].recibirCarta(mazo.robarCarta());
-
-            } else {
-                cout << "Reporte inválido. El reportador roba 2 cartas.\n";
-                jugador[reportador].recibirCarta(mazo.robarCarta());
-                jugador[reportador].recibirCarta(mazo.robarCarta());
-            }
+        turnos.getJugador(indiceJugador).recibirCarta(mazo.robarCarta());
+        turnos.getJugador(indiceJugador).recibirCarta(mazo.robarCarta());
     }
 
     gritoPendiente = false;
