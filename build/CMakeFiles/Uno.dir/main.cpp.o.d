@@ -163,6 +163,7 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/../../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/Jugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
@@ -170,10 +171,15 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/Jugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/../../clases/carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/../flujo-juego/TurnosJuego.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../configuracion-partida/ConfiguracionPartida.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/TurnosJuego.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/EfectoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/jugador/Jugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/lista/mazo-lista/MazoCartas.h \

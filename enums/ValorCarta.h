@@ -25,9 +25,10 @@ enum ValorCarta {
     TOMA_6,
 
     SALTO,
+    SALTO_TODOS,
     REVERSE,
     CAMBIA_COLOR,
-    BLOQUEO,
+    COLOR_ETERNO,
     FLIP
 };
 

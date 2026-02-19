@@ -6,12 +6,13 @@
 
 #include <cstdlib>
 #include <ctime>
-
+#include <iostream>
+using namespace std;
 #include "../../../utils/UtilColorCarta.h"
 
 MazoCartas::MazoCartas() {
     createMazoInicial();
-    revolverCartas();
+    //revolverCartas();
 }
 
 MazoCartas::MazoCartas(int cantidadJugadores) {
@@ -22,7 +23,7 @@ MazoCartas::MazoCartas(int cantidadJugadores) {
         createMazoInicial();
     }
 
-    revolverCartas();
+    //revolverCartas();
 }
 
 /*
@@ -133,3 +134,22 @@ void MazoCartas::revolverCartas() {
     }
 }
 
+void MazoCartas::mostrarMazoCompleto() {
+
+    PilaMazo copia = mazo;
+    int contador = 0;
+
+    std::cout << "\n===== MOSTRANDO MAZO COMPLETO =====\n\n";
+
+    while (!copia.esVacia()) {
+
+        Carta carta = copia.pop();
+        contador++;
+
+        cout << "Carta #" << contador << endl;
+        carta.mostrarCarta();
+        cout << endl;
+    }
+
+    cout << "TOTAL DE CARTAS: " << contador << endl;
+}

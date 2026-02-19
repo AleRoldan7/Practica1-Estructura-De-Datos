@@ -18,6 +18,8 @@ private:
     Carta robarCarta();
     int cartasRestantes();
     void revolverCartas();
+    void mostrarMazoCompleto();
+
 };
 
 

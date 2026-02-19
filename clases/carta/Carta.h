@@ -15,6 +15,8 @@ private:
     TipoCarta tipo;
     ValorCarta valor;
 
+
+
     public:
     Carta();
     Carta(ColorCarta color, TipoCarta tipo, ValorCarta valor);

@@ -165,4 +165,5 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/CartaColor.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/TipoCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/ValorCarta.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../configuracion-partida/ConfiguracionPartida.h

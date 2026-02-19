@@ -265,19 +265,19 @@ CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp -o CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.s
 
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o: CMakeFiles/Uno.dir/flags.make
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.cpp
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o -MF CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o.d -o CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.cpp
+CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp
+CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o -MF CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o.d -o CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp
 
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.cpp > CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.i
+CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp > CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.i
 
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.cpp -o CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.s
+CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp -o CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.s
 
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: CMakeFiles/Uno.dir/flags.make
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.cpp
@@ -321,6 +321,34 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s
 
+CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp
+CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o -MF CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o.d -o CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp
+
+CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp > CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.i
+
+CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp -o CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.s
+
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o -MF CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o.d -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp
+
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp > CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i
+
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s
+
 # Object files for target Uno
 Uno_OBJECTS = \
 "CMakeFiles/Uno.dir/main.cpp.o" \
@@ -337,10 +365,12 @@ Uno_OBJECTS = \
 "CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o" \
-"CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o" \
+"CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o" \
 "CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o" \
-"CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o"
+"CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o" \
+"CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o" \
+"CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o"
 
 # External object files for target Uno
 Uno_EXTERNAL_OBJECTS =
@@ -359,13 +389,15 @@ Uno: CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.o
 Uno: CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
-Uno: CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o
+Uno: CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
 Uno: CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o
+Uno: CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o
+Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o
 Uno: CMakeFiles/Uno.dir/build.make
 Uno: CMakeFiles/Uno.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Uno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Uno"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Uno.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

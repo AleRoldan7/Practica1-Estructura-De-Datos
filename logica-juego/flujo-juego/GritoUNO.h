@@ -5,20 +5,21 @@
 #ifndef UNO_GRITOUNO_H
 #define UNO_GRITOUNO_H
 #include "TurnosJuego.h"
+#include "../../configuracion-partida/ConfiguracionPartida.h"
 
 
 class GritoUNO {
 private:
-    bool gritoPendiente;
-    int indiceJugador;
+    bool unoPendiente;
+    int indiceJugadorPendiente;
 
-    public:
+public:
     GritoUNO();
 
-    void comprobarUno(TurnosJuego& turnos);
-    void reportarJugador(TurnosJuego&  turnos, MazoCartas& mazo);
-    bool unoPendiente()const;
-};
+    void verificarSiDebeGritar(TurnosJuego& turnos);
+    void intentarReporte(TurnosJuego& turnos, MazoCartas& mazo);
 
+    void limpiarEstado();
+};
 
 #endif //UNO_GRITOUNO_H

@@ -297,6 +297,30 @@ clases/lista/mazo-lista/PilaMazo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.s
 .PHONY : clases/lista/mazo-lista/PilaMazo.cpp.s
 
+configuracion-partida/ConfiguracionPartida.o: configuracion-partida/ConfiguracionPartida.cpp.o
+.PHONY : configuracion-partida/ConfiguracionPartida.o
+
+# target to build an object file
+configuracion-partida/ConfiguracionPartida.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o
+.PHONY : configuracion-partida/ConfiguracionPartida.cpp.o
+
+configuracion-partida/ConfiguracionPartida.i: configuracion-partida/ConfiguracionPartida.cpp.i
+.PHONY : configuracion-partida/ConfiguracionPartida.i
+
+# target to preprocess a source file
+configuracion-partida/ConfiguracionPartida.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.i
+.PHONY : configuracion-partida/ConfiguracionPartida.cpp.i
+
+configuracion-partida/ConfiguracionPartida.s: configuracion-partida/ConfiguracionPartida.cpp.s
+.PHONY : configuracion-partida/ConfiguracionPartida.s
+
+# target to generate assembly for a file
+configuracion-partida/ConfiguracionPartida.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.s
+.PHONY : configuracion-partida/ConfiguracionPartida.cpp.s
+
 logica-juego/creacion-jugador/CrearJugador.o: logica-juego/creacion-jugador/CrearJugador.cpp.o
 .PHONY : logica-juego/creacion-jugador/CrearJugador.o
 
@@ -320,6 +344,30 @@ logica-juego/creacion-jugador/CrearJugador.s: logica-juego/creacion-jugador/Crea
 logica-juego/creacion-jugador/CrearJugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.s
 .PHONY : logica-juego/creacion-jugador/CrearJugador.cpp.s
+
+logica-juego/efecto-cartas/EfectoCartas.o: logica-juego/efecto-cartas/EfectoCartas.cpp.o
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.o
+
+# target to build an object file
+logica-juego/efecto-cartas/EfectoCartas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.cpp.o
+
+logica-juego/efecto-cartas/EfectoCartas.i: logica-juego/efecto-cartas/EfectoCartas.cpp.i
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.i
+
+# target to preprocess a source file
+logica-juego/efecto-cartas/EfectoCartas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.i
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.cpp.i
+
+logica-juego/efecto-cartas/EfectoCartas.s: logica-juego/efecto-cartas/EfectoCartas.cpp.s
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.s
+
+# target to generate assembly for a file
+logica-juego/efecto-cartas/EfectoCartas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.s
+.PHONY : logica-juego/efecto-cartas/EfectoCartas.cpp.s
 
 logica-juego/flujo-juego/GritoUNO.o: logica-juego/flujo-juego/GritoUNO.cpp.o
 .PHONY : logica-juego/flujo-juego/GritoUNO.o
@@ -345,6 +393,30 @@ logica-juego/flujo-juego/GritoUNO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s
 .PHONY : logica-juego/flujo-juego/GritoUNO.cpp.s
 
+logica-juego/flujo-juego/Juego.o: logica-juego/flujo-juego/Juego.cpp.o
+.PHONY : logica-juego/flujo-juego/Juego.o
+
+# target to build an object file
+logica-juego/flujo-juego/Juego.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o
+.PHONY : logica-juego/flujo-juego/Juego.cpp.o
+
+logica-juego/flujo-juego/Juego.i: logica-juego/flujo-juego/Juego.cpp.i
+.PHONY : logica-juego/flujo-juego/Juego.i
+
+# target to preprocess a source file
+logica-juego/flujo-juego/Juego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i
+.PHONY : logica-juego/flujo-juego/Juego.cpp.i
+
+logica-juego/flujo-juego/Juego.s: logica-juego/flujo-juego/Juego.cpp.s
+.PHONY : logica-juego/flujo-juego/Juego.s
+
+# target to generate assembly for a file
+logica-juego/flujo-juego/Juego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s
+.PHONY : logica-juego/flujo-juego/Juego.cpp.s
+
 logica-juego/flujo-juego/TurnosJuego.o: logica-juego/flujo-juego/TurnosJuego.cpp.o
 .PHONY : logica-juego/flujo-juego/TurnosJuego.o
 
@@ -368,30 +440,6 @@ logica-juego/flujo-juego/TurnosJuego.s: logica-juego/flujo-juego/TurnosJuego.cpp
 logica-juego/flujo-juego/TurnosJuego.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.s
 .PHONY : logica-juego/flujo-juego/TurnosJuego.cpp.s
-
-logica-juego/reglas/ReglasJuego.o: logica-juego/reglas/ReglasJuego.cpp.o
-.PHONY : logica-juego/reglas/ReglasJuego.o
-
-# target to build an object file
-logica-juego/reglas/ReglasJuego.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o
-.PHONY : logica-juego/reglas/ReglasJuego.cpp.o
-
-logica-juego/reglas/ReglasJuego.i: logica-juego/reglas/ReglasJuego.cpp.i
-.PHONY : logica-juego/reglas/ReglasJuego.i
-
-# target to preprocess a source file
-logica-juego/reglas/ReglasJuego.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.i
-.PHONY : logica-juego/reglas/ReglasJuego.cpp.i
-
-logica-juego/reglas/ReglasJuego.s: logica-juego/reglas/ReglasJuego.cpp.s
-.PHONY : logica-juego/reglas/ReglasJuego.s
-
-# target to generate assembly for a file
-logica-juego/reglas/ReglasJuego.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.s
-.PHONY : logica-juego/reglas/ReglasJuego.cpp.s
 
 logica-juego/reparticion-cartas/ReparteCartasJugador.o: logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
 .PHONY : logica-juego/reparticion-cartas/ReparteCartasJugador.o
@@ -591,18 +639,24 @@ help:
 	@echo "... clases/lista/mazo-lista/PilaMazo.o"
 	@echo "... clases/lista/mazo-lista/PilaMazo.i"
 	@echo "... clases/lista/mazo-lista/PilaMazo.s"
+	@echo "... configuracion-partida/ConfiguracionPartida.o"
+	@echo "... configuracion-partida/ConfiguracionPartida.i"
+	@echo "... configuracion-partida/ConfiguracionPartida.s"
 	@echo "... logica-juego/creacion-jugador/CrearJugador.o"
 	@echo "... logica-juego/creacion-jugador/CrearJugador.i"
 	@echo "... logica-juego/creacion-jugador/CrearJugador.s"
+	@echo "... logica-juego/efecto-cartas/EfectoCartas.o"
+	@echo "... logica-juego/efecto-cartas/EfectoCartas.i"
+	@echo "... logica-juego/efecto-cartas/EfectoCartas.s"
 	@echo "... logica-juego/flujo-juego/GritoUNO.o"
 	@echo "... logica-juego/flujo-juego/GritoUNO.i"
 	@echo "... logica-juego/flujo-juego/GritoUNO.s"
+	@echo "... logica-juego/flujo-juego/Juego.o"
+	@echo "... logica-juego/flujo-juego/Juego.i"
+	@echo "... logica-juego/flujo-juego/Juego.s"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.o"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.i"
 	@echo "... logica-juego/flujo-juego/TurnosJuego.s"
-	@echo "... logica-juego/reglas/ReglasJuego.o"
-	@echo "... logica-juego/reglas/ReglasJuego.i"
-	@echo "... logica-juego/reglas/ReglasJuego.s"
 	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.o"
 	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.i"
 	@echo "... logica-juego/reparticion-cartas/ReparteCartasJugador.s"

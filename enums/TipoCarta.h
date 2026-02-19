@@ -9,7 +9,6 @@
 enum TipoCarta {
     CARTA_NUMERO,
     CARTA_COMODIN,
-    CARTA_FLIP,
     CARTA_ACCION
 };
 

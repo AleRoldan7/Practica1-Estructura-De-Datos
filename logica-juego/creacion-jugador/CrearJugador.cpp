@@ -23,6 +23,7 @@ int CrearJugador::solicitarJugadores() {
     return catidad;
 }
 
+/*
 Jugador *CrearJugador::crearJugadores(int &cantidad) {
 
     Jugador* jugadores = new Jugador[cantidad];
@@ -33,6 +34,21 @@ Jugador *CrearJugador::crearJugadores(int &cantidad) {
         cin>>nombre;
 
         jugadores[i] = Jugador(nombre);
+    }
+
+    return jugadores;
+}
+*/
+
+Jugador *CrearJugador::crearJugadores(int &cantidad) {
+    Jugador* jugadores = new Jugador[cantidad];
+
+    for (int i = 0; i < cantidad; i++) {
+        string nombre;
+        cout << "Ingrese nombre: ";
+        cin >> nombre;
+
+        jugadores[i].setNombreJugador(nombre);
     }
 
     return jugadores;

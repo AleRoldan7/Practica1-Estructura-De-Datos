@@ -2,10 +2,13 @@
 
 #include "clases/carta/Carta.h"
 #include "clases/lista/mazo-lista/MazoCartas.h"
+#include "clases/lista/mazo-lista/MazoFlip.h"
+#include "configuracion-partida/ConfiguracionPartida.h"
 #include "logica-juego/creacion-jugador/CrearJugador.h"
 #include "logica-juego/flujo-juego/GritoUNO.h"
 #include "logica-juego/flujo-juego/TurnosJuego.h"
-#include "logica-juego/efecto-cartas/ReglasJuego.h"
+#include "logica-juego/efecto-cartas/EfectoCartas.h"
+#include "logica-juego/flujo-juego/Juego.h"
 #include "logica-juego/reparticion-cartas/ReparteCartasJugador.h"
 #include "utils/LimpiarPantalla.h"
 using namespace std;
@@ -98,7 +101,7 @@ int main() {
 
 
      /*
-     // 7. Simulación de turnos
+
      for (int ronda = 0; ronda < 10; ronda++) {
 
           cout << "\n====================\n";
@@ -126,6 +129,10 @@ int main() {
 
      */
 
+    /*
+    ConfiguracionPartida confi;
+    confi.configurar();
+
 
     CrearJugador creador;
     int cantidad = creador.solicitarJugadores();
@@ -149,7 +156,7 @@ int main() {
     cartaMesa.mostrarCarta();
 
     TurnosJuego turnos(jugadores, cantidad);
-    ReglasJuego reglas;
+    EfectoCartas reglas;
     GritoUNO gritoUNo;
 
     while (true) {
@@ -221,7 +228,22 @@ int main() {
     }
 
      delete[] jugadores;
+    */
 
+
+    Juego juego;
+    juego.iniciarJuego();
+
+
+    /*
+    MazoCartas mazoCartas;
+    mazoCartas.mostrarMazoCompleto();
+    */
+
+    /*
+    MazoFlip mazoFlip;
+    mazoFlip.mostrarMazoFlip();
+    */
     return 0;
 
 }

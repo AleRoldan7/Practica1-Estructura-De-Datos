@@ -1310,8 +1310,8 @@ CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.cpp
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp
  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h
  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h
  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h
@@ -1321,6 +1321,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -1516,12 +1517,11 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.cpp
+CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.cpp
  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h
  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h
  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h
- /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h
@@ -1529,7 +1529,6 @@ CMakeFiles/Uno.dir/logica-juego/reglas/ReglasJuego.cpp.o
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reglas/ReglasJuego.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -1946,6 +1945,7 @@ CMakeFiles/Uno.dir/main.cpp.o
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h

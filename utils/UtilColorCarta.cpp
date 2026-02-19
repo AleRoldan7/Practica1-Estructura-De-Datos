@@ -30,3 +30,24 @@ const char* colorANSI(ColorCarta color) {
             return "\033[0m";
     }
 }
+
+std::string colorCartaString(ColorCarta color) {
+
+    switch (color) {
+
+        case ROJO:
+            return "ROJO";
+
+        case VERDE:
+            return "VERDE";
+
+        case AZUL:
+            return "AZUL";
+
+        case AMARILLO:
+            return "AMARILLO";
+
+        default:
+            return " ";
+    }
+}

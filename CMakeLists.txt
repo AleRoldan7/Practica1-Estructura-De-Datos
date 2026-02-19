@@ -34,12 +34,29 @@ add_executable(Uno main.cpp
         logica-juego/creacion-jugador/CrearJugador.h
         logica-juego/reparticion-cartas/ReparteCartasJugador.cpp
         logica-juego/reparticion-cartas/ReparteCartasJugador.h
-        logica-juego/efecto-cartas/ReglasJuego.cpp
-        logica-juego/efecto-cartas/ReglasJuego.h
+        logica-juego/efecto-cartas/EfectoCartas.cpp
+        logica-juego/efecto-cartas/EfectoCartas.h
         logica-juego/flujo-juego/TurnosJuego.cpp
         logica-juego/flujo-juego/TurnosJuego.h
         utils/LimpiarPantalla.cpp
         utils/LimpiarPantalla.h
         logica-juego/flujo-juego/GritoUNO.cpp
         logica-juego/flujo-juego/GritoUNO.h
+        configuracion-partida/ConfiguracionPartida.cpp
+        configuracion-partida/ConfiguracionPartida.h
+        logica-juego/flujo-juego/Juego.cpp
+        logica-juego/flujo-juego/Juego.h
+        clases/carta/CartaFlip.cpp
+        clases/carta/CartaFlip.h
+        clases/lista/mazo-lista/MazoFlip.cpp
+        clases/lista/mazo-lista/MazoFlip.h
+        clases/lista/mazo-lista/NodoFlip.cpp
+        clases/lista/mazo-lista/NodoFlip.h
+        clases/lista/mazo-lista/PilaFlip.cpp
+        clases/lista/mazo-lista/PilaFlip.h
+        clases/lista/mazo-jugador/NodoMano.cpp
+        clases/lista/mazo-jugador/NodoManoFlip.cpp
+        clases/lista/mazo-jugador/NodoManoFlip.h
+        clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp
+        clases/lista/mazo-jugador/ListaMazoFlipJugador.h
 )

@@ -7,60 +7,68 @@
 using namespace std;
 
 GritoUNO::GritoUNO() {
-    gritoPendiente = false;
-    indiceJugador = -1;
+    unoPendiente = false;
+    indiceJugadorPendiente = -1;
 }
 
-void GritoUNO::comprobarUno(TurnosJuego &turnos) {
+void GritoUNO::verificarSiDebeGritar(TurnosJuego& turnos) {
 
     Jugador& jugador = turnos.jugadorActual();
 
     if (jugador.cantidadCartas() == 1) {
-        string grito;
-        cout<<"Te queda una carta, escribe 'UNO': "<<endl;
-        cin>>grito;
 
-        if (grito == "UNO") {
-            cout<<"Grito 'UNO'"<<endl;
-            gritoPendiente = false;
-            indiceJugador = -1;
+        string entrada;
+        cout << "Te queda 1 carta. Escribe 'UNO' para evitar penalizacion: ";
+        cin >> entrada;
+
+        if (entrada == "UNO" || entrada == "uno") {
+            cout << "Gritaste UNO correctamente.\n";
+            limpiarEstado();
         } else {
-            cout<<"No gritaste UNO te reportaran"<<endl;
-            gritoPendiente = true;
-            indiceJugador = turnos.getIndiceActual();
+            cout << "No gritaste UNO. Quedas expuesto a reporte.\n";
+            unoPendiente = true;
+            indiceJugadorPendiente = turnos.getIndiceActual();
         }
     }
 }
 
-void GritoUNO::reportarJugador(TurnosJuego& turnos, MazoCartas &mazo) {
+void GritoUNO::intentarReporte(TurnosJuego& turnos, MazoCartas& mazo) {
 
-    if (!gritoPendiente) return;
+    if (!unoPendiente) return;
 
-    int indiceJugadorReportado = turnos.getIndiceActual();
+    cout << "¿Alguien quiere reportar que no grito UNO? (reportar / no): ";
 
-    if (indiceJugadorReportado == indiceJugador) {
-        gritoPendiente = false;
-        return;
-    }
-
-    Jugador& jugador = turnos.jugadorActual();
-
-    char opcion;
-
-    cout << "¿Reportar al jugador que no gritó UNO? (s/n): ";
+    string opcion;
     cin >> opcion;
 
-    if (opcion == 's' || opcion == 'S') {
-        cout << "Reporte válido. El jugador roba 2 cartas.\n";
+    if (opcion == "reportar") {
 
-        turnos.getJugador(indiceJugador).recibirCarta(mazo.robarCarta());
-        turnos.getJugador(indiceJugador).recibirCarta(mazo.robarCarta());
+        int reportador = turnos.getIndiceActual();
+
+        if (indiceJugadorPendiente != -1) {
+
+            cout << "Reporte valido. El jugador roba 2 cartas.\n";
+
+            turnos.getJugador(indiceJugadorPendiente)
+                .recibirCarta(mazo.robarCarta());
+            turnos.getJugador(indiceJugadorPendiente)
+                .recibirCarta(mazo.robarCarta());
+
+        } else {
+
+            cout << "Reporte incorrecto. El reportador roba 2 cartas.\n";
+
+            turnos.getJugador(reportador)
+                .recibirCarta(mazo.robarCarta());
+            turnos.getJugador(reportador)
+                .recibirCarta(mazo.robarCarta());
+        }
     }
 
-    gritoPendiente = false;
-    indiceJugador = -1;
+    limpiarEstado();
 }
 
-bool GritoUNO::unoPendiente() const {
-    return gritoPendiente;
+void GritoUNO::limpiarEstado() {
+    unoPendiente = false;
+    indiceJugadorPendiente = -1;
 }

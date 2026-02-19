@@ -9,5 +9,6 @@
 #include "../enums/ValorCarta.h"
 
 const char* valorCartaString(ValorCarta valor);
+const char* simboloCarta(ValorCarta valor);
 
 #endif //UNO_UTILVALORCARTA_H

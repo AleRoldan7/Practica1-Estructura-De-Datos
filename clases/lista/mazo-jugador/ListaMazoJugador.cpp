@@ -4,6 +4,8 @@
 
 #include "ListaMazoJugador.h"
 #include <iostream>
+
+#include "../../carta/CartaFlip.h"
 using namespace std;
 
 ListaMazoJugador::ListaMazoJugador() {
@@ -33,6 +35,7 @@ bool ordenarMazoJugador(Carta cartaA, Carta cartaB) {
     return cartaA.getValor() < cartaB.getValor();
 }
 
+
 void ListaMazoJugador::insertarCartasOrdenada(Carta carta) {
     NodoMazo* nuevo = new NodoMazo(carta);
 
@@ -53,6 +56,7 @@ void ListaMazoJugador::insertarCartasOrdenada(Carta carta) {
     cantidadCartas++;
 }
 
+
 void ListaMazoJugador::mostrarMazoJugador() {
 
     NodoMazo* actual = nodo;
@@ -64,6 +68,7 @@ void ListaMazoJugador::mostrarMazoJugador() {
         actual = actual->sigueinte;
     }
 }
+
 
 Carta ListaMazoJugador::jugarCarta(int posicionCarta) {
 
