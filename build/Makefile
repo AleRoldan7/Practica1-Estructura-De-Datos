@@ -153,6 +153,30 @@ clases/carta/Carta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/Carta.cpp.s
 .PHONY : clases/carta/Carta.cpp.s
 
+clases/carta/CartaFlip.o: clases/carta/CartaFlip.cpp.o
+.PHONY : clases/carta/CartaFlip.o
+
+# target to build an object file
+clases/carta/CartaFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o
+.PHONY : clases/carta/CartaFlip.cpp.o
+
+clases/carta/CartaFlip.i: clases/carta/CartaFlip.cpp.i
+.PHONY : clases/carta/CartaFlip.i
+
+# target to preprocess a source file
+clases/carta/CartaFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.i
+.PHONY : clases/carta/CartaFlip.cpp.i
+
+clases/carta/CartaFlip.s: clases/carta/CartaFlip.cpp.s
+.PHONY : clases/carta/CartaFlip.s
+
+# target to generate assembly for a file
+clases/carta/CartaFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.s
+.PHONY : clases/carta/CartaFlip.cpp.s
+
 clases/jugador/Jugador.o: clases/jugador/Jugador.cpp.o
 .PHONY : clases/jugador/Jugador.o
 
@@ -201,6 +225,30 @@ clases/lista/lista-circular/ListaCircular.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.s
 .PHONY : clases/lista/lista-circular/ListaCircular.cpp.s
 
+clases/lista/mazo-jugador/ListaMazoFlipJugador.o: clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.o
+
+# target to build an object file
+clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o
+
+clases/lista/mazo-jugador/ListaMazoFlipJugador.i: clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.i
+
+# target to preprocess a source file
+clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i
+
+clases/lista/mazo-jugador/ListaMazoFlipJugador.s: clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.s
+
+# target to generate assembly for a file
+clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s
+.PHONY : clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s
+
 clases/lista/mazo-jugador/ListaMazoJugador.o: clases/lista/mazo-jugador/ListaMazoJugador.cpp.o
 .PHONY : clases/lista/mazo-jugador/ListaMazoJugador.o
 
@@ -224,6 +272,54 @@ clases/lista/mazo-jugador/ListaMazoJugador.s: clases/lista/mazo-jugador/ListaMaz
 clases/lista/mazo-jugador/ListaMazoJugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.s
 .PHONY : clases/lista/mazo-jugador/ListaMazoJugador.cpp.s
+
+clases/lista/mazo-jugador/NodoMano.o: clases/lista/mazo-jugador/NodoMano.cpp.o
+.PHONY : clases/lista/mazo-jugador/NodoMano.o
+
+# target to build an object file
+clases/lista/mazo-jugador/NodoMano.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o
+.PHONY : clases/lista/mazo-jugador/NodoMano.cpp.o
+
+clases/lista/mazo-jugador/NodoMano.i: clases/lista/mazo-jugador/NodoMano.cpp.i
+.PHONY : clases/lista/mazo-jugador/NodoMano.i
+
+# target to preprocess a source file
+clases/lista/mazo-jugador/NodoMano.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.i
+.PHONY : clases/lista/mazo-jugador/NodoMano.cpp.i
+
+clases/lista/mazo-jugador/NodoMano.s: clases/lista/mazo-jugador/NodoMano.cpp.s
+.PHONY : clases/lista/mazo-jugador/NodoMano.s
+
+# target to generate assembly for a file
+clases/lista/mazo-jugador/NodoMano.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.s
+.PHONY : clases/lista/mazo-jugador/NodoMano.cpp.s
+
+clases/lista/mazo-jugador/NodoManoFlip.o: clases/lista/mazo-jugador/NodoManoFlip.cpp.o
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.o
+
+# target to build an object file
+clases/lista/mazo-jugador/NodoManoFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.cpp.o
+
+clases/lista/mazo-jugador/NodoManoFlip.i: clases/lista/mazo-jugador/NodoManoFlip.cpp.i
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.i
+
+# target to preprocess a source file
+clases/lista/mazo-jugador/NodoManoFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.i
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.cpp.i
+
+clases/lista/mazo-jugador/NodoManoFlip.s: clases/lista/mazo-jugador/NodoManoFlip.cpp.s
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.s
+
+# target to generate assembly for a file
+clases/lista/mazo-jugador/NodoManoFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.s
+.PHONY : clases/lista/mazo-jugador/NodoManoFlip.cpp.s
 
 clases/lista/mazo-lista/MazoCartas.o: clases/lista/mazo-lista/MazoCartas.cpp.o
 .PHONY : clases/lista/mazo-lista/MazoCartas.o
@@ -249,6 +345,54 @@ clases/lista/mazo-lista/MazoCartas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.s
 .PHONY : clases/lista/mazo-lista/MazoCartas.cpp.s
 
+clases/lista/mazo-lista/MazoFlip.o: clases/lista/mazo-lista/MazoFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/MazoFlip.o
+
+# target to build an object file
+clases/lista/mazo-lista/MazoFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/MazoFlip.cpp.o
+
+clases/lista/mazo-lista/MazoFlip.i: clases/lista/mazo-lista/MazoFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/MazoFlip.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/MazoFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/MazoFlip.cpp.i
+
+clases/lista/mazo-lista/MazoFlip.s: clases/lista/mazo-lista/MazoFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/MazoFlip.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/MazoFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/MazoFlip.cpp.s
+
+clases/lista/mazo-lista/NodoFlip.o: clases/lista/mazo-lista/NodoFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/NodoFlip.o
+
+# target to build an object file
+clases/lista/mazo-lista/NodoFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/NodoFlip.cpp.o
+
+clases/lista/mazo-lista/NodoFlip.i: clases/lista/mazo-lista/NodoFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/NodoFlip.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/NodoFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/NodoFlip.cpp.i
+
+clases/lista/mazo-lista/NodoFlip.s: clases/lista/mazo-lista/NodoFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/NodoFlip.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/NodoFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/NodoFlip.cpp.s
+
 clases/lista/mazo-lista/NodoMazo.o: clases/lista/mazo-lista/NodoMazo.cpp.o
 .PHONY : clases/lista/mazo-lista/NodoMazo.o
 
@@ -272,6 +416,30 @@ clases/lista/mazo-lista/NodoMazo.s: clases/lista/mazo-lista/NodoMazo.cpp.s
 clases/lista/mazo-lista/NodoMazo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.s
 .PHONY : clases/lista/mazo-lista/NodoMazo.cpp.s
+
+clases/lista/mazo-lista/PilaFlip.o: clases/lista/mazo-lista/PilaFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/PilaFlip.o
+
+# target to build an object file
+clases/lista/mazo-lista/PilaFlip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o
+.PHONY : clases/lista/mazo-lista/PilaFlip.cpp.o
+
+clases/lista/mazo-lista/PilaFlip.i: clases/lista/mazo-lista/PilaFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/PilaFlip.i
+
+# target to preprocess a source file
+clases/lista/mazo-lista/PilaFlip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.i
+.PHONY : clases/lista/mazo-lista/PilaFlip.cpp.i
+
+clases/lista/mazo-lista/PilaFlip.s: clases/lista/mazo-lista/PilaFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/PilaFlip.s
+
+# target to generate assembly for a file
+clases/lista/mazo-lista/PilaFlip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.s
+.PHONY : clases/lista/mazo-lista/PilaFlip.cpp.s
 
 clases/lista/mazo-lista/PilaMazo.o: clases/lista/mazo-lista/PilaMazo.cpp.o
 .PHONY : clases/lista/mazo-lista/PilaMazo.o
@@ -513,30 +681,6 @@ utils/CentrarTexto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/CentrarTexto.cpp.s
 .PHONY : utils/CentrarTexto.cpp.s
 
-utils/LimpiarPantalla.o: utils/LimpiarPantalla.cpp.o
-.PHONY : utils/LimpiarPantalla.o
-
-# target to build an object file
-utils/LimpiarPantalla.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o
-.PHONY : utils/LimpiarPantalla.cpp.o
-
-utils/LimpiarPantalla.i: utils/LimpiarPantalla.cpp.i
-.PHONY : utils/LimpiarPantalla.i
-
-# target to preprocess a source file
-utils/LimpiarPantalla.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.i
-.PHONY : utils/LimpiarPantalla.cpp.i
-
-utils/LimpiarPantalla.s: utils/LimpiarPantalla.cpp.s
-.PHONY : utils/LimpiarPantalla.s
-
-# target to generate assembly for a file
-utils/LimpiarPantalla.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Uno.dir/build.make CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.s
-.PHONY : utils/LimpiarPantalla.cpp.s
-
 utils/UtilColorCarta.o: utils/UtilColorCarta.cpp.o
 .PHONY : utils/UtilColorCarta.o
 
@@ -621,21 +765,42 @@ help:
 	@echo "... clases/carta/Carta.o"
 	@echo "... clases/carta/Carta.i"
 	@echo "... clases/carta/Carta.s"
+	@echo "... clases/carta/CartaFlip.o"
+	@echo "... clases/carta/CartaFlip.i"
+	@echo "... clases/carta/CartaFlip.s"
 	@echo "... clases/jugador/Jugador.o"
 	@echo "... clases/jugador/Jugador.i"
 	@echo "... clases/jugador/Jugador.s"
 	@echo "... clases/lista/lista-circular/ListaCircular.o"
 	@echo "... clases/lista/lista-circular/ListaCircular.i"
 	@echo "... clases/lista/lista-circular/ListaCircular.s"
+	@echo "... clases/lista/mazo-jugador/ListaMazoFlipJugador.o"
+	@echo "... clases/lista/mazo-jugador/ListaMazoFlipJugador.i"
+	@echo "... clases/lista/mazo-jugador/ListaMazoFlipJugador.s"
 	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.o"
 	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.i"
 	@echo "... clases/lista/mazo-jugador/ListaMazoJugador.s"
+	@echo "... clases/lista/mazo-jugador/NodoMano.o"
+	@echo "... clases/lista/mazo-jugador/NodoMano.i"
+	@echo "... clases/lista/mazo-jugador/NodoMano.s"
+	@echo "... clases/lista/mazo-jugador/NodoManoFlip.o"
+	@echo "... clases/lista/mazo-jugador/NodoManoFlip.i"
+	@echo "... clases/lista/mazo-jugador/NodoManoFlip.s"
 	@echo "... clases/lista/mazo-lista/MazoCartas.o"
 	@echo "... clases/lista/mazo-lista/MazoCartas.i"
 	@echo "... clases/lista/mazo-lista/MazoCartas.s"
+	@echo "... clases/lista/mazo-lista/MazoFlip.o"
+	@echo "... clases/lista/mazo-lista/MazoFlip.i"
+	@echo "... clases/lista/mazo-lista/MazoFlip.s"
+	@echo "... clases/lista/mazo-lista/NodoFlip.o"
+	@echo "... clases/lista/mazo-lista/NodoFlip.i"
+	@echo "... clases/lista/mazo-lista/NodoFlip.s"
 	@echo "... clases/lista/mazo-lista/NodoMazo.o"
 	@echo "... clases/lista/mazo-lista/NodoMazo.i"
 	@echo "... clases/lista/mazo-lista/NodoMazo.s"
+	@echo "... clases/lista/mazo-lista/PilaFlip.o"
+	@echo "... clases/lista/mazo-lista/PilaFlip.i"
+	@echo "... clases/lista/mazo-lista/PilaFlip.s"
 	@echo "... clases/lista/mazo-lista/PilaMazo.o"
 	@echo "... clases/lista/mazo-lista/PilaMazo.i"
 	@echo "... clases/lista/mazo-lista/PilaMazo.s"
@@ -666,9 +831,6 @@ help:
 	@echo "... utils/CentrarTexto.o"
 	@echo "... utils/CentrarTexto.i"
 	@echo "... utils/CentrarTexto.s"
-	@echo "... utils/LimpiarPantalla.o"
-	@echo "... utils/LimpiarPantalla.i"
-	@echo "... utils/LimpiarPantalla.s"
 	@echo "... utils/UtilColorCarta.o"
 	@echo "... utils/UtilColorCarta.i"
 	@echo "... utils/UtilColorCarta.s"

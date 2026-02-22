@@ -156,11 +156,21 @@ CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../carta/Carta.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../carta/../../enums/CartaColor.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../carta/../../enums/TipoCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/ListaMazoFlipJugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/NodoManoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/PilaMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/NodoMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/CartaColor.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/TipoCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/ValorCarta.h
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/CartaFlip.h

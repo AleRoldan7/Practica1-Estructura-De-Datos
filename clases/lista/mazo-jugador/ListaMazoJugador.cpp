@@ -143,6 +143,66 @@ void ListaMazoJugador::eliminarCarta(int posicionCarta) {
 
 void ListaMazoJugador::mostrarMazoJugadorConIndices() {
 
+    if (cantidadCartas == 0) {
+        cout << "(mano vacía)\n";
+        return;
+    }
+
+    const int cartasPorPagina = 6;
+    int totalPaginas = (cantidadCartas + cartasPorPagina - 1) / cartasPorPagina;
+    int paginaActual = 0;
+
+    while (true) {
+
+        int inicio = paginaActual * cartasPorPagina;
+        int fin = min(inicio + cartasPorPagina, cantidadCartas);
+
+        vector<vector<string>> cartasVisuales;
+
+        NodoMazo* actual = nodo;
+        int indice = 0;
+
+        while (actual != nullptr && indice < fin) {
+
+            if (indice >= inicio) {
+                cartasVisuales.push_back(actual->carta.lineaHorizontal());
+            }
+
+            actual = actual->sigueinte;
+            indice++;
+        }
+
+        for (int i = inicio; i < fin; i++)
+            cout << "   [" << i << "]      ";
+        cout << "\n";
+
+        for (int linea = 0; linea < cartasVisuales[0].size(); linea++) {
+            for (auto &carta : cartasVisuales)
+                cout << carta[linea] << "  ";
+            cout << "\n";
+        }
+
+        cout << "\nPágina " << paginaActual + 1 << " de " << totalPaginas << "\n";
+
+        if (totalPaginas == 1) break;
+
+        cout << "s = siguiente | a = anterior | e = elegir\n";
+        char op;
+        cin >> op;
+
+        if (op == 's' && paginaActual < totalPaginas - 1)
+            paginaActual++;
+        else if (op == 'a' && paginaActual > 0)
+            paginaActual--;
+        else
+            break;
+    }
+}
+
+
+/*
+void ListaMazoJugador::mostrarMazoJugadorConIndices() {
+
     NodoMazo* actual = nodo;
     int indice = 0;
 
@@ -156,3 +216,4 @@ void ListaMazoJugador::mostrarMazoJugadorConIndices() {
         indice++;
     }
 }
+*/

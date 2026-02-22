@@ -106,51 +106,100 @@ int ListaMazoFlipJugador::sizeMazoFlipJugador() {
 }
 
 void ListaMazoFlipJugador::mostrarConIndices(bool modoOscuro) const {
+
+    if (cantidad == 0) {
+        cout << "(mano vacía)\n";
+        return;
+    }
+
+    const int cartasPorPagina = 3;
+    int totalPaginas = (cantidad + cartasPorPagina - 1) / cartasPorPagina;
+    int paginaActual = 0;
+
+    while (true) {
+
+        int inicio = paginaActual * cartasPorPagina;
+        int fin = min(inicio + cartasPorPagina, cantidad);
+
+        vector<vector<string>> cartasVisuales;
+
+        NodoManoFlip* actual = head;
+        int indice = 0;
+
+        while (actual != nullptr && indice < fin) {
+
+            if (indice >= inicio) {
+
+                CartaFlip cf = actual->getCartaFlip();
+                cartasVisuales.push_back(cf.lineaHorizontalFlip());
+            }
+
+            actual = actual->getSiguiente();
+            indice++;
+        }
+
+        for (int i = inicio; i < fin; i++) {
+            cout << "          [" << i << "]                     ";
+        }
+        cout << "\n";
+
+        int alturaCarta = cartasVisuales[0].size();
+
+        for (int linea = 0; linea < alturaCarta; linea++) {
+
+            for (size_t c = 0; c < cartasVisuales.size(); c++) {
+                cout << cartasVisuales[c][linea] << "   ";
+            }
+
+            cout << "\n";
+        }
+
+        cout << "\n";
+
+
+        cout << "Página " << paginaActual + 1 << " de " << totalPaginas << "\n";
+
+        if (totalPaginas == 1) break;
+
+        cout << "s = siguiente | a = anterior | e = elegir\n";
+        char op;
+        cin >> op;
+
+        if (op == 's' && paginaActual < totalPaginas - 1)
+            paginaActual++;
+        else if (op == 'a' && paginaActual > 0)
+            paginaActual--;
+        else
+            break;
+    }
+}
+
+
+
+/*
+void ListaMazoFlipJugador::mostrarConIndices(bool modoOscuro) const {
     if (cantidad == 0) {
         cout << "   (mano vacía)"<<endl;
         return;
     }
 
-    cout << " "<<endl;
-
     NodoManoFlip* actual = head;
     int indice = 0;
 
     while (actual != nullptr) {
+
         CartaFlip cartaFlip = actual->getCartaFlip();
-        Carta carta = cartaFlip.getCartaActual();
 
-        cout << "[" << indice << "]  ";
+        cartaFlip.setModoOscuro(modoOscuro);
 
-        cout << "┌─────────┐ "<<endl;
+        cout << "[" << indice << "]\n";
 
-        cout << "│ ";
+        cartaFlip.mostrarAmbosLados();
 
-        if (carta.getTipo() == CARTA_NUMERO) {
-            cout << carta.getValor() << "       ";
-        } else {
-            std::string accion;
-            switch (carta.getValor()) {
-                case TOMA_1:      accion = "+1";     break;
-                case TOMA_6:      accion = "+6";     break;
-                case SALTO:       accion = "SALTO";  break;
-                case SALTO_TODOS: accion = "TODOS";  break;
-                case REVERSE:     accion = "REV";    break;
-                case FLIP:        accion = "FLIP";   break;
-                case CAMBIA_COLOR: accion = "COMODIN"; break;
-                case COLOR_ETERNO: accion = "COLOR"; break;
-                default:          accion = "???";
-            }
-            cout << accion << std::string(8 - accion.length(), ' ');
-        }
-
-        cout << "│\n";
-        cout << "│         │\n";
-        cout << "│  " << colorCartaString(carta.getColor()) << "  │\n";
-        cout << "│         │\n";
-        cout << "└─────────┘\n\n";
+        cout << endl;
 
         actual = actual->getSiguiente();
         indice++;
     }
 }
+*/

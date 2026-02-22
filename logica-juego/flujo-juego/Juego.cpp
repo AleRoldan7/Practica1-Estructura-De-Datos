@@ -191,6 +191,7 @@ void Juego::loopNormal() {
 
 void Juego::loopFlip() {
     while (true) {
+        limpiarPantalla();
         Jugador& actual = turnosJuego.jugadorActual();
 
         cout << "================================\n";
@@ -249,7 +250,7 @@ void Juego::loopFlip() {
                 ladoOscuro
             );
 
-            if (actual.ganoJugador()) {
+            if (actual.ganoJugador() == 0) {
                 cout << "\n¡GANADOR! " << actual.getNombreJugador() << endl;
                 break;
             }
@@ -261,7 +262,7 @@ void Juego::loopFlip() {
             cout << "\nPresiona ENTER para continuar...\n";
             cin.ignore();
             cin.get();
-
+            limpiarPantalla();
         } catch (const exception& e) {
             cout << "Error: " << e.what() << endl;
         }
@@ -282,4 +283,8 @@ bool Juego::cartaValidaFlip(
         a.getValor() == b.getValor() ||
         a.getTipo() == CARTA_COMODIN
     );
+}
+
+void Juego::limpiarPantalla() {
+    system("clear");
 }

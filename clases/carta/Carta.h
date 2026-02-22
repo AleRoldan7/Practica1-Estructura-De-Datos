@@ -4,10 +4,13 @@
 
 #ifndef UNO_CARTA_H
 #define UNO_CARTA_H
+#include <string>
+#include <vector>
+
 #include "../../enums/CartaColor.h"
 #include "../../enums/TipoCarta.h"
 #include "../../enums/ValorCarta.h"
-
+using std::vector;
 
 class Carta {
 private:
@@ -30,6 +33,8 @@ private:
     void setValor(ValorCarta valor);
 
     void mostrarCarta();
+
+    vector<std::string> lineaHorizontal();
 };
 
 

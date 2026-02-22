@@ -38,8 +38,6 @@ add_executable(Uno main.cpp
         logica-juego/efecto-cartas/EfectoCartas.h
         logica-juego/flujo-juego/TurnosJuego.cpp
         logica-juego/flujo-juego/TurnosJuego.h
-        utils/LimpiarPantalla.cpp
-        utils/LimpiarPantalla.h
         logica-juego/flujo-juego/GritoUNO.cpp
         logica-juego/flujo-juego/GritoUNO.h
         configuracion-partida/ConfiguracionPartida.cpp

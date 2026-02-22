@@ -10,7 +10,6 @@
 #include "logica-juego/efecto-cartas/EfectoCartas.h"
 #include "logica-juego/flujo-juego/Juego.h"
 #include "logica-juego/reparticion-cartas/ReparteCartasJugador.h"
-#include "utils/LimpiarPantalla.h"
 using namespace std;
 
 int main() {

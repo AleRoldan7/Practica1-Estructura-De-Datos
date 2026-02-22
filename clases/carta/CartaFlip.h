@@ -5,10 +5,12 @@
 #ifndef UNO_CARTAFLIP_H
 #define UNO_CARTAFLIP_H
 #include "Carta.h"
+using std::vector;
 
 
 class CartaFlip {
 private:
+
     Carta ladoClaro;
     Carta ladoOscuro;
     bool esOscuro;
@@ -24,6 +26,7 @@ private:
     void mostrarCartaActual();
     void mostrarAmbosLados();
 
+    vector<std::string> lineaHorizontalFlip();
 };
 
 

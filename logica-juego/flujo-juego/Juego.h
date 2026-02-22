@@ -44,6 +44,8 @@ private:
 
     void iniciarJuego();
     void loopJuego();
+
+    void limpiarPantalla();
 };
 
 

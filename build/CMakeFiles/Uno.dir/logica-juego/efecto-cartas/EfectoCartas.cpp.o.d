@@ -123,9 +123,18 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/Carta.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/../../enums/CartaColor.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/../../enums/TipoCarta.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/MazoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/PilaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/NodoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/../../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/../../carta/Carta.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/TurnosJuego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/Jugador.h \
@@ -166,8 +175,15 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/ListaMazoFlipJugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/NodoManoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/PilaMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/NodoMazo.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../utils/UtilColorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../utils/../enums/CartaColor.h

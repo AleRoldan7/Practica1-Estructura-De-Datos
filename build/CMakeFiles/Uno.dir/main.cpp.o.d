@@ -156,6 +156,10 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/CartaColor.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/TipoCarta.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/../../enums/ValorCarta.h \
@@ -163,9 +167,18 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/../../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/../../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/../../carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/Jugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/ListaMazoFlipJugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/NodoManoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
@@ -175,12 +188,14 @@ CMakeFiles/Uno.dir/main.cpp.o: \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../clases/lista/mazo-lista/MazoFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../../configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/../flujo-juego/TurnosJuego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/lista/mazo-lista/MazoFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/EfectoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/jugador/Jugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/lista/mazo-lista/MazoCartas.h \
- /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.h
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/../../clases/lista/mazo-lista/MazoFlip.h

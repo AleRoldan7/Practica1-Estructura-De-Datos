@@ -12,7 +12,7 @@ using namespace std;
 
 MazoCartas::MazoCartas() {
     createMazoInicial();
-    //revolverCartas();
+    revolverCartas();
 }
 
 MazoCartas::MazoCartas(int cantidadJugadores) {
@@ -23,7 +23,7 @@ MazoCartas::MazoCartas(int cantidadJugadores) {
         createMazoInicial();
     }
 
-    //revolverCartas();
+    revolverCartas();
 }
 
 /*

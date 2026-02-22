@@ -159,17 +159,32 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../carta/CartaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../carta/Carta.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../carta/../../enums/CartaColor.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../carta/../../enums/TipoCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/ListaMazoFlipJugador.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/NodoManoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/ListaMazoJugador.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/MazoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/PilaMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/NodoMazo.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/Carta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/CartaColor.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/TipoCarta.h \
- /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/../../enums/ValorCarta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/jugador/../lista/mazo-jugador/../mazo-lista/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../configuracion-partida/ConfiguracionPartida.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/lista/mazo-lista/MazoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/lista/mazo-lista/PilaFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/lista/mazo-lista/NodoFlip.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../../clases/lista/mazo-lista/../../carta/CartaFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/EfectoCartas.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/../../clases/carta/Carta.h \
+ /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/../../clases/lista/mazo-lista/MazoFlip.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/../../configuracion-partida/ConfiguracionPartida.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../efecto-cartas/../flujo-juego/TurnosJuego.h \
  /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/../creacion-jugador/CrearJugador.h \

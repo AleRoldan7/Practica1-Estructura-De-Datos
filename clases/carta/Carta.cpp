@@ -129,6 +129,48 @@ void Carta::mostrarCarta() {
     cout << "\033[0m";
 }
 
+vector<string> Carta::lineaHorizontal() {
+
+    vector<string> lineas;
+
+    string texto = valorCartaString(valor);
+    string simbolo = simboloCarta(valor);
+
+    string colorCode = colorANSI(color);
+    string reset = "\033[0m";
+
+    lineas.push_back(colorCode + "┌─────────┐" + reset);
+
+    string linea1 = "│" + texto;
+    if (texto.length() < 9)
+        linea1 += string(9 - texto.length(), ' ');
+    else
+        linea1 += texto.substr(0,9);
+    linea1 += "│";
+
+    lineas.push_back(colorCode + linea1 + reset);
+
+    lineas.push_back(colorCode + "│         │" + reset);
+
+    string centro = "│" + centrarTexto(simbolo, 9) + "│";
+    lineas.push_back(colorCode + centro + reset);
+
+    lineas.push_back(colorCode + "│         │" + reset);
+
+    string lineaFinal = "│";
+    if (texto.length() < 9)
+        lineaFinal += string(9 - texto.length(), ' ') + texto;
+    else
+        lineaFinal += texto.substr(0,9);
+    lineaFinal += "│";
+
+    lineas.push_back(colorCode + lineaFinal + reset);
+
+    lineas.push_back(colorCode + "└─────────┘" + reset);
+
+    return lineas;
+}
+
 
 ColorCarta Carta::getColor() {
     return color;

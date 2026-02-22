@@ -293,24 +293,10 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.cpp -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.s
 
-CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o: CMakeFiles/Uno.dir/flags.make
-CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.cpp
-CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o -MF CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o.d -o CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.cpp
-
-CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.cpp > CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.i
-
-CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.cpp -o CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.s
-
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: CMakeFiles/Uno.dir/flags.make
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o -MF CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o.d -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp
 
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.s: cmake_force
 CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: CMakeFiles/Uno.dir/flags.make
 CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp
 CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o -MF CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o.d -o CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp
 
 CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.i: cmake_force
@@ -338,7 +324,7 @@ CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.s: cmake_force
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: CMakeFiles/Uno.dir/flags.make
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o -MF CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o.d -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp
 
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i: cmake_force
@@ -348,6 +334,104 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.i: cmake_force
 CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp -o CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.s
+
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o -MF CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o.d -o CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp
+
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp > CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.i
+
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp -o CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.s
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o: CMakeFiles/Uno.dir/flags.make
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o: CMakeFiles/Uno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o -MF CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o.d -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o -c /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp > CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.i
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp -o CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.s
 
 # Object files for target Uno
 Uno_OBJECTS = \
@@ -367,10 +451,16 @@ Uno_OBJECTS = \
 "CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o" \
-"CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o" \
 "CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o" \
 "CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o" \
-"CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o"
+"CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o" \
+"CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o" \
+"CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o"
 
 # External object files for target Uno
 Uno_EXTERNAL_OBJECTS =
@@ -391,13 +481,19 @@ Uno: CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o
-Uno: CMakeFiles/Uno.dir/utils/LimpiarPantalla.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o
 Uno: CMakeFiles/Uno.dir/configuracion-partida/ConfiguracionPartida.cpp.o
 Uno: CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o
+Uno: CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o
 Uno: CMakeFiles/Uno.dir/build.make
 Uno: CMakeFiles/Uno.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Uno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alejandro/CLionProjects/Practica1/Uno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Uno"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Uno.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
