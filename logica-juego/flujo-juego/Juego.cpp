@@ -21,7 +21,6 @@ Juego::Juego()
 }
 
 Juego::~Juego() {
-    cout<<"SE eliminaaaaa"<<endl;
     delete[] jugadores;
 }
 
@@ -154,6 +153,7 @@ void Juego::loopNormal() {
             }
 
             cartaMesa = jugada;
+            pilaDescarte.push_back(cartaMesa);
 
             bool efecto =
                 efectoCartas.efectoCarta(
@@ -166,10 +166,16 @@ void Juego::loopNormal() {
 
             gritoUno.verificarSiDebeGritar(turnosJuego);
 
+            if (cartaMesa.getTipo() == JOKER) {
+                cout << " GANO CON JOKER ";
+                cout << actual.getNombreJugador() << " GANADOR INSTANTANEO " << endl;
+                break;
+            }
+
+            cout << endl;
+
             if (efectoCartas.victoriaJugador(actual)) {
-                cout << "GANADOR: "
-                     << actual.getNombreJugador()
-                     << endl;
+                cout << "GANADOR: " << actual.getNombreJugador() << endl;
                 break;
             }
 
@@ -182,9 +188,7 @@ void Juego::loopNormal() {
             }
 
         } catch (exception& e) {
-            cout << "Error: "
-                 << e.what()
-                 << endl;
+            cout << "Error: " << e.what() << endl;
         }
     }
 }
@@ -202,13 +206,13 @@ void Juego::loopFlip() {
         cout << "Turno de: " << actual.getNombreJugador() << endl;
 
         cout << "Carta en mesa (lado actual):\n";
-        cartaMesaFlip.mostrarCartaActual();
+        cartaMesaFlip.mostrarCartaActual(ladoOscuro);
 
-        cout << "\nTu mano:\n";
+        cout << " Tu mano: " << endl;
         actual.mostrarManoFlipConIndices(ladoOscuro);
 
-        cout << "-1: Robar carta\n";
-        cout << "Ingrese el indice de la carta a jugar (o -1): ";
+        cout<<"-1: Robar carta"<<endl;
+        cout<<"Ingrese el indice de la carta: ";
 
         int opcion;
         cin >> opcion;
@@ -222,8 +226,8 @@ void Juego::loopFlip() {
         try {
             CartaFlip jugada = actual.jugarCartaFlip(opcion);
 
-            if (!cartaValidaFlip(jugada, cartaMesaFlip)) {
-                cout << "Carta inválida. Robas una carta.\n";
+            if (!efectoCartas.cartaValidaFlip(jugada, cartaMesaFlip, ladoOscuro)) {
+                cout << "Carta inválida. Robas una carta " << endl;
                 actual.recibirCartaFlip(jugada);
                 actual.recibirCartaFlip(mazoFlip.robarCartaFlip());
                 turnosJuego.siguienteTurno();
@@ -231,28 +235,29 @@ void Juego::loopFlip() {
             }
 
             cartaMesaFlip = jugada;
+            pilaDescarteFlip.push_back(cartaMesaFlip);
 
-            bool flipOcurrido = false;
-            if (cartaMesaFlip.getCartaActual().getValor() == FLIP) {
-                ladoOscuro = !ladoOscuro;
-                flipOcurrido = true;
-                cout << "***** ¡FLIP! Cambio a " << (ladoOscuro ? "OSCURO" : "CLARO") << " *****\n";
-
-
-            }
-
-            bool noAvanzarTurno = efectoCartas.efectoCartaFlip(
-                cartaMesaFlip,
-                turnosJuego,
-                mazoFlip,
+            bool noAvanzarTurno = efectoCartas.efectoCartaFlip(cartaMesaFlip, turnosJuego, mazoFlip,
                 jugadores,
                 cantidadJugadores,
                 ladoOscuro
             );
 
-            if (actual.ganoJugador() == 0) {
-                cout << "\n¡GANADOR! " << actual.getNombreJugador() << endl;
+            Carta actualCarta = cartaMesaFlip.getCartaActual(ladoOscuro);
+
+            if (actualCarta.getTipo() == JOKER) {
+                cout << "GANO CON JOKER ";
+                cout << actual.getNombreJugador() << "GANADOR INSTANTANEO " << endl;
                 break;
+            }
+
+            if (actual.cantidadaCartaFlip() == 0) {
+                cout << "GANADOR: " << actual.getNombreJugador() << endl;
+                break;
+            }
+
+            if (mazoFlip.cantidadRestantes() == 0) {
+
             }
 
             if (!noAvanzarTurno) {
@@ -268,15 +273,10 @@ void Juego::loopFlip() {
         }
     }
 }
-bool Juego::cartaValidaFlip(
-    CartaFlip jugada,
-    CartaFlip mesa)
-{
-    Carta a =
-        jugada.getCartaActual();
 
-    Carta b =
-        mesa.getCartaActual();
+bool Juego::cartaValidaFlip(CartaFlip jugada, CartaFlip mesa) {
+    Carta a = jugada.getCartaActual(ladoOscuro);
+    Carta b = mesa.getCartaActual(ladoOscuro);
 
     return (
         a.getColor() == b.getColor() ||
@@ -285,6 +285,24 @@ bool Juego::cartaValidaFlip(
     );
 }
 
+void Juego::victoriaPorJoker(int indiceJugador) {
+    ganarJoker = true;
+    indiceGanadorJoker = indiceJugador;
+}
+
+void Juego::reutilizarPilaDescarte() {
+
+    if (pilaDescarte.size() <= 1) return;
+
+    cout << "Rearmando el mazo para seguir jugando " << endl;
+
+    Carta cartaActual = pilaDescarte.back();
+    pilaDescarte.pop_back();
+
+
+}
+
+
 void Juego::limpiarPantalla() {
-    system("clear");
+    cout << "\033[2J\033[1;1H";
 }

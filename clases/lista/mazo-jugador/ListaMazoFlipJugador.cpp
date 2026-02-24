@@ -25,8 +25,8 @@ ListaMazoFlipJugador::~ListaMazoFlipJugador() {
 
 bool ListaMazoFlipJugador::ordenar(CartaFlip a, CartaFlip b) {
 
-    Carta ladoA = a.getCartaActual();
-    Carta ladoB = b.getCartaActual();
+    Carta ladoA = a.getCartaActual(ladoOscuro);
+    Carta ladoB = b.getCartaActual(ladoOscuro);
 
     if (ladoA.getColor() != ladoB.getColor())
         return ladoA.getColor() < ladoB.getColor();

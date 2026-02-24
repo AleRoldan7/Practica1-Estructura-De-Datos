@@ -16,7 +16,7 @@ class EfectoCartas {
 
 private:
     ConfiguracionPartida* configuracion;
-
+    bool ladoOscuro;
     public:
     EfectoCartas();
     EfectoCartas(ConfiguracionPartida* config);
@@ -24,7 +24,7 @@ private:
     bool efectoCarta(Carta& carta, TurnosJuego& turnos, MazoCartas& mazo, Jugador* jugadores, int cantidadJugadores);
     bool victoriaJugador(Jugador& jugador);
 
-    bool cartaValidaFlip(CartaFlip& cartaJugadaFlip, CartaFlip& cartaMesaFlip);
+    bool cartaValidaFlip(CartaFlip& cartaJugadaFlip, CartaFlip& cartaMesaFlip, bool ladoOscuro);
     bool efectoCartaFlip(
         CartaFlip& carta,
         TurnosJuego& turnos,
@@ -35,7 +35,7 @@ private:
     );
 
     ColorCarta pedirColor();
-    void robarHastaColor(Jugador& jugador, MazoFlip& mazo, ColorCarta colorBuscado);
+    void robarHastaColor(Jugador& jugador, MazoFlip& mazo, ColorCarta colorBuscado, bool ladoOscuro);
 };
 
 

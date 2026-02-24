@@ -9,7 +9,9 @@
 enum TipoCarta {
     CARTA_NUMERO,
     CARTA_COMODIN,
-    CARTA_ACCION
+    CARTA_ACCION,
+    JOKER,
+    GLOTON
 };
 
 

@@ -230,6 +230,8 @@ int main() {
     */
 
 
+
+
     Juego juego;
     juego.iniciarJuego();
 
@@ -243,6 +245,8 @@ int main() {
     MazoFlip mazoFlip;
     mazoFlip.mostrarMazoFlip();
     */
+
+
     return 0;
 
 }

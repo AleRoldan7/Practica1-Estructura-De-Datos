@@ -30,7 +30,8 @@ const char* valorCartaString(ValorCarta valorCarta) {
         case CAMBIA_COLOR: return "COLOR";
         case COLOR_ETERNO: return "ETERNO";
         case FLIP: return "FLIP";
-
+        case VALOR_JOKER: return "JOKER";
+        case VALOR_GLOTON: return "GLOTON";
         default: return "SIN NADA";
     }
 }
@@ -62,7 +63,8 @@ const char* simboloCarta(ValorCarta valor) {
         case CAMBIA_COLOR: return "COL";
         case COLOR_ETERNO: return "INF";
         case FLIP: return "<->";
-
+        case VALOR_JOKER: return "*?";
+        case VALOR_GLOTON: return "O";
 
         default: return "?";
     }

@@ -43,6 +43,10 @@ int Jugador::cantidadCartas() {
     return manoJugador.sizeMazoJugador();
 }
 
+int Jugador::cantidadaCartaFlip() {
+    return mazoFlipJugador.sizeMazoFlipJugador();
+}
+
 Carta Jugador::jugarCarta(int posicionCarta) {
     Carta carta = manoJugador.obtenerCarta(posicionCarta);
     manoJugador.eliminarCarta(posicionCarta);
@@ -60,6 +64,10 @@ CartaFlip Jugador::jugarCartaFlip(int posicionCarta) {
 
 bool Jugador::ganoJugador() {
     return cantidadCartas() == 0;
+}
+
+bool Jugador::ganoJugadorFlip() {
+    return cantidadaCartaFlip() == 0;
 }
 
 bool Jugador::tieneUno() {

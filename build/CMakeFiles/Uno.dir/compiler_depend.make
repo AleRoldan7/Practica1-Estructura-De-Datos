@@ -64,12 +64,15 @@ CMakeFiles/Uno.dir/clases/carta/Carta.cpp.o: /home/alejandro/CLionProjects/Pract
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -77,6 +80,7 @@ CMakeFiles/Uno.dir/clases/carta/Carta.cpp.o: /home/alejandro/CLionProjects/Pract
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -112,6 +116,212 @@ CMakeFiles/Uno.dir/clases/carta/Carta.cpp.o: /home/alejandro/CLionProjects/Pract
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/carta/CartaFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -212,10 +422,16 @@ CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o: /home/alejandro/CLionProjects/P
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -268,12 +484,15 @@ CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o: /home/alejandro/CLionProjects/P
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -281,6 +500,7 @@ CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o: /home/alejandro/CLionProjects/P
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -316,6 +536,7 @@ CMakeFiles/Uno.dir/clases/jugador/Jugador.cpp.o: /home/alejandro/CLionProjects/P
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -416,10 +637,16 @@ CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o: /home/alejan
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/lista-circular/ListaCircular.h \
   /usr/include/alloca.h \
@@ -473,12 +700,15 @@ CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o: /home/alejan
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -486,6 +716,7 @@ CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o: /home/alejan
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -521,6 +752,216 @@ CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o: /home/alejan
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -617,10 +1058,12 @@ CMakeFiles/Uno.dir/clases/lista/lista-circular/ListaCircular.cpp.o: /home/alejan
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
@@ -676,12 +1119,15 @@ CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o: /home/aleja
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -689,6 +1135,7 @@ CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o: /home/aleja
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -724,6 +1171,7 @@ CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o: /home/aleja
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -819,66 +1267,154 @@ CMakeFiles/Uno.dir/clases/lista/mazo-jugador/ListaMazoJugador.cpp.o: /home/aleja
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.cpp \
-  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h \
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoMano.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.h \
   /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
-  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -886,21 +1422,177 @@ CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.o: /home/alejandro/CLi
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.cpp \
+CMakeFiles/Uno.dir/clases/lista/mazo-jugador/NodoManoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
-  /usr/include/stdc-predef.h
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.cpp \
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoCartas.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
   /usr/include/alloca.h \
@@ -954,12 +1646,15 @@ CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o: /home/alejandro/CLion
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -967,6 +1662,788 @@ CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o: /home/alejandro/CLion
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/MazoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_algo.h \
+  /usr/include/c++/13/bits/ranges_algobase.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/numeric \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/NodoMazo.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaFlip.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1002,6 +2479,214 @@ CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o: /home/alejandro/CLion
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Uno.dir/clases/lista/mazo-lista/PilaMazo.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.cpp \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1298,10 +2983,16 @@ CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o: /home/aleja
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
   /usr/include/alloca.h \
@@ -1355,12 +3046,15 @@ CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o: /home/aleja
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -1368,6 +3062,7 @@ CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o: /home/aleja
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1403,6 +3098,7 @@ CMakeFiles/Uno.dir/logica-juego/creacion-jugador/CrearJugador.cpp.o: /home/aleja
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1503,12 +3199,24 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: /home/alejandr
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
@@ -1563,12 +3271,15 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: /home/alejandr
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -1576,6 +3287,7 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: /home/alejandr
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1611,6 +3323,7 @@ CMakeFiles/Uno.dir/logica-juego/efecto-cartas/EfectoCartas.cpp.o: /home/alejandr
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1711,10 +3424,16 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: /home/alejandro/CLio
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
@@ -1770,12 +3489,15 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: /home/alejandro/CLio
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -1783,6 +3505,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: /home/alejandro/CLio
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1818,6 +3541,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/GritoUNO.cpp.o: /home/alejandro/CLio
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1918,15 +3642,26 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionPr
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
@@ -1984,12 +3719,15 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionPr
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -1997,6 +3735,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionPr
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -2032,6 +3771,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/Juego.cpp.o: /home/alejandro/CLionPr
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2132,10 +3872,16 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: /home/alejandro/C
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
   /usr/include/alloca.h \
@@ -2189,12 +3935,15 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: /home/alejandro/C
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -2202,6 +3951,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: /home/alejandro/C
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -2237,6 +3987,7 @@ CMakeFiles/Uno.dir/logica-juego/flujo-juego/TurnosJuego.cpp.o: /home/alejandro/C
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2337,12 +4088,22 @@ CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o: /
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2395,12 +4156,15 @@ CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o: /
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -2408,6 +4172,7 @@ CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o: /
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -2443,6 +4208,7 @@ CMakeFiles/Uno.dir/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp.o: /
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2544,19 +4310,29 @@ CMakeFiles/Uno.dir/main.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/main.
   /home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h \
@@ -2564,8 +4340,8 @@ CMakeFiles/Uno.dir/main.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/main.
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h \
   /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h \
+  /home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h \
   /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h \
-  /home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -2617,12 +4393,15 @@ CMakeFiles/Uno.dir/main.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/main.
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -2630,6 +4409,7 @@ CMakeFiles/Uno.dir/main.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/main.
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -2665,6 +4445,7 @@ CMakeFiles/Uno.dir/main.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/main.
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2912,7 +4693,152 @@ CMakeFiles/Uno.dir/utils/CentrarTexto.cpp.o: /home/alejandro/CLionProjects/Pract
 CMakeFiles/Uno.dir/utils/UtilColorCarta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h \
   /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h \
-  /usr/include/stdc-predef.h
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/iterator_concepts.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Uno.dir/utils/UtilTipoCarta.cpp.o: /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp \
   /home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h \
@@ -2927,470 +4853,600 @@ CMakeFiles/Uno.dir/utils/UtilValorCarta.cpp.o: /home/alejandro/CLionProjects/Pra
 
 /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.cpp:
 
-/home/alejandro/CLionProjects/Practica1/Uno/utils/CentrarTexto.cpp:
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h:
 
 /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.cpp:
 
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/utils/LimpiarPantalla.h:
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp:
 
 /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.cpp:
 
-/home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h:
-
 /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.cpp:
-
-/usr/include/c++/13/ctime:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/lista-circular/ListaCircular.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/lista-circular/ListaCircular.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/TurnosJuego.h:
 
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/stdexcept:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/13/cstddef:
-
-/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.h:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.cpp:
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.h:
 
 /home/alejandro/CLionProjects/Practica1/Uno/logica-juego/creacion-jugador/CrearJugador.cpp:
 
-/usr/include/ctype.h:
+/home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.h:
 
-/usr/include/c++/13/bits/iterator_concepts.h:
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.cpp:
 
-/usr/include/c++/13/bits/char_traits.h:
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.cpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
-/usr/include/c++/13/bits/ios_base.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/c++/13/bits/ranges_util.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/c++/13/debug/debug.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h:
+/usr/include/c++/13/tr1/special_function_util.h:
 
-/usr/include/c++/13/cwctype:
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/13/bits/predefined_ops.h:
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/13/bits/ranges_cmp.h:
+/usr/include/c++/13/tr1/poly_hermite.tcc:
 
-/usr/include/c++/13/iosfwd:
+/usr/include/stdlib.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.cpp:
+/usr/include/pthread.h:
 
-/usr/include/c++/13/cwchar:
+/usr/include/locale.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/13/bits/stl_algobase.h:
+/usr/include/stdint.h:
 
-/usr/include/c++/13/bits/nested_exception.h:
+/usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+/usr/include/c++/13/bits/max_size_type.h:
 
-/usr/include/c++/13/bits/basic_ios.tcc:
+/usr/include/c++/13/typeinfo:
 
-/usr/include/c++/13/bits/memory_resource.h:
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
-/usr/include/wchar.h:
+/usr/include/c++/13/pstl/pstl_config.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h:
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/efecto-cartas/EfectoCartas.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h:
 
-/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.h:
+/usr/include/c++/13/ostream:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/c++/13/cerrno:
+/usr/include/c++/13/bits/streambuf_iterator.h:
 
-/usr/include/stdio.h:
+/usr/include/c++/13/new:
 
-/usr/include/c++/13/ios:
+/usr/include/c++/13/ext/alloc_traits.h:
 
-/usr/include/c++/13/bits/localefwd.h:
+/usr/include/c++/13/iostream:
 
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/utils/CentrarTexto.h:
-
-/usr/include/c++/13/bits/ranges_base.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/main.cpp:
-
-/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h:
-
-/usr/include/c++/13/istream:
-
-/usr/include/c++/13/string_view:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/features.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp:
-
-/usr/include/c++/13/backward/binders.h:
-
-/usr/include/c++/13/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.h:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/numbers:
-
-/usr/include/c++/13/string:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/c++/13/compare:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/c++/13/clocale:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/13/concepts:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/include/c++/13/cstdlib:
-
-/usr/include/c++/13/debug/assertions.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.cpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/13/cctype:
-
-/usr/include/c++/13/ext/atomicity.h:
+/usr/include/c++/13/ext/type_traits.h:
 
 /home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.cpp:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
-/usr/include/c++/13/ext/type_traits.h:
+/usr/include/c++/13/cctype:
 
-/usr/include/c++/13/iostream:
+/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.cpp:
 
-/usr/include/c++/13/initializer_list:
+/usr/include/c++/13/tr1/gamma.tcc:
 
-/usr/include/c++/13/ext/alloc_traits.h:
+/usr/include/errno.h:
 
-/usr/include/c++/13/new:
+/usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/c++/13/bits/streambuf_iterator.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/usr/include/c++/13/ostream:
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/c++/13/debug/assertions.h:
 
-/usr/include/c++/13/pstl/pstl_config.h:
+/usr/include/c++/13/cstdlib:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/c++/13/cstdint:
 
-/usr/include/c++/13/bits/range_access.h:
+/usr/include/c++/13/cstdio:
 
-/usr/include/c++/13/system_error:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/typeinfo:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/13/bits/max_size_type.h:
+/usr/include/c++/13/concepts:
 
-/usr/include/c++/13/bits/streambuf.tcc:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/endian.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
-/usr/include/linux/errno.h:
+/usr/include/c++/13/clocale:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/locale.h:
+/usr/include/c++/13/bits/utility.h:
 
-/usr/include/pthread.h:
+/usr/include/c++/13/bits/stl_function.h:
 
-/usr/include/sched.h:
+/usr/include/c++/13/tr1/beta_function.tcc:
 
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h:
+/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/c++/13/exception:
 
+/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.h:
+
+/usr/include/sched.h:
+
 /usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/CartaFlip.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/compare:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/13/numbers:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.cpp:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/reparticion-cartas/ReparteCartasJugador.cpp:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/main.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/string:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoCartas.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/enums/ValorCarta.h:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bit:
+
+/usr/include/alloca.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/CentrarTexto.cpp:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/features-time64.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaFlip.h:
+
+/usr/include/c++/13/istream:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilColorCarta.h:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13/bits/ranges_base.h:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/CentrarTexto.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/ios:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/PilaMazo.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/home/alejandro/CLionProjects/Practica1/Uno/enums/TipoCarta.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/ranges_cmp.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/cwctype:
+
+/home/alejandro/CLionProjects/Practica1/Uno/enums/CartaColor.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/ctype.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/13/string_view:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/carta/Carta.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilTipoCarta.h:
+
+/usr/include/c++/13/vector:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoFlipJugador.cpp:
+
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/Juego.h:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/utils/UtilValorCarta.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/configuracion-partida/ConfiguracionPartida.cpp:
+
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/c++/13/bits/ranges_util.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/c++/13/cmath:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/13/cwchar:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/13/bits/random.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoMazo.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/ListaMazoJugador.h:
+
+/usr/include/c++/13/bits/move.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/lista-circular/ListaCircular.cpp:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/lista-circular/ListaCircular.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.cpp:
+
+/usr/include/c++/13/ctime:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.cpp:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/MazoFlip.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-lista/NodoFlip.h:
+
+/usr/include/c++/13/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/c++/13/bits/ranges_algobase.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/13/limits:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoMano.h:
+
+/usr/include/c++/13/numeric:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/jugador/Jugador.cpp:
+
+/usr/include/c++/13/bits/random.tcc:
+
+/usr/include/c++/13/random:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/home/alejandro/CLionProjects/Practica1/Uno/logica-juego/flujo-juego/GritoUNO.h:
+
+/home/alejandro/CLionProjects/Practica1/Uno/clases/lista/mazo-jugador/NodoManoFlip.h:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:

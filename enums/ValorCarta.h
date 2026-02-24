@@ -29,7 +29,9 @@ enum ValorCarta {
     REVERSE,
     CAMBIA_COLOR,
     COLOR_ETERNO,
-    FLIP
+    FLIP,
+    VALOR_JOKER,
+    VALOR_GLOTON
 };
 
 

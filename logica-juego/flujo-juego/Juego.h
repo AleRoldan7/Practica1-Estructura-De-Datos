@@ -10,7 +10,7 @@
 #include "../../clases/lista/mazo-lista/MazoFlip.h"
 #include "../../configuracion-partida/ConfiguracionPartida.h"
 #include "../efecto-cartas/EfectoCartas.h"
-
+#include <vector>
 
 class Juego {
 private:
@@ -32,10 +32,16 @@ private:
     bool modoFlip;
     bool ladoOscuro;
 
+    bool ganarJoker = false;
+    int indiceGanadorJoker = -1;
+
+    vector<Carta> pilaDescarte;
+    vector<CartaFlip> pilaDescarteFlip;
+
     void loopNormal();
     void loopFlip();
-
     bool cartaValidaFlip(CartaFlip jugada, CartaFlip mesa);
+    void victoriaPorJoker(int indiceJugador);
 
     public:
 
@@ -44,7 +50,8 @@ private:
 
     void iniciarJuego();
     void loopJuego();
-
+    void reutilizarPilaDescarte();
+    void reutilizarPilaFlip();
     void limpiarPantalla();
 };
 

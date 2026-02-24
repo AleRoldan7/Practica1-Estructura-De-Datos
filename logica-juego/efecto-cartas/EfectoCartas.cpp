@@ -16,7 +16,7 @@ EfectoCartas::EfectoCartas(ConfiguracionPartida *config) {
 
 bool EfectoCartas::cartaValida(Carta &cartaJugada, Carta &cartaMesa) {
 
-    if (cartaJugada.getTipo() == CARTA_COMODIN) {
+    if (cartaJugada.getTipo() == CARTA_COMODIN || cartaJugada.getTipo() == JOKER || cartaJugada.getTipo() == GLOTON) {
         return true;
     }
 
@@ -33,6 +33,62 @@ bool EfectoCartas::cartaValida(Carta &cartaJugada, Carta &cartaMesa) {
 }
 
 bool EfectoCartas::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &mazo, Jugador *jugadores, int cantidadJugadores) {
+
+    if (carta.getTipo() == JOKER) {
+        cout << "JOKER ACTIVADO" << endl;
+        cout << turnos.jugadorActual().getNombreJugador() << " Gano instantaneamente " << endl;
+        return true;
+    }
+
+    if (carta.getTipo() == GLOTON) {
+
+        cout << "GLOTÓN ACTIVADO" << endl;
+
+        int jugadorActualIndex = turnos.getIndiceActual();
+
+        cout << "Jugadores disponibles:\n";
+        for (int i = 0; i < cantidadJugadores; i++) {
+            if (i == jugadorActualIndex) continue;
+            cout << i << ". " << jugadores[i].getNombreJugador() << " (" << jugadores[i].cantidadCartas() << " cartas) " << endl;
+        }
+
+        int objetivoIndex;
+        cout << "Elige jugador objetivo: ";
+        cin >> objetivoIndex;
+
+        if (objetivoIndex < 0 || objetivoIndex >= cantidadJugadores ||
+            objetivoIndex == jugadorActualIndex) {
+
+            cout << "Jugador inválido " << endl;
+            return false;
+            }
+
+        Jugador& objetivo = jugadores[objetivoIndex];
+
+        for (int i = 0; i < cantidadJugadores; i++) {
+
+            if (i == objetivoIndex) continue;
+
+            Jugador& actual = jugadores[i];
+
+            if (actual.cantidadCartas() <= 1) continue;
+
+            cout << actual.getNombreJugador() << " entrega sus cartas a " << objetivo.getNombreJugador() << endl;
+
+            while (actual.cantidadCartas() > 1) {
+                objetivo.recibirCarta(
+                    actual.jugarCarta(actual.cantidadCartas() - 1)
+                );
+            }
+        }
+
+        cout << endl << objetivo.getNombreJugador() << " ahora tiene " << objetivo.cantidadCartas() << " cartas " << endl;
+
+        cout << "---------------------------------------------- " << endl;
+
+        return false;
+    }
+
 
     switch (carta.getValor()) {
 
@@ -123,21 +179,14 @@ bool EfectoCartas::efectoCarta(Carta &carta, TurnosJuego &turnos, MazoCartas &ma
 
             return false;
         }
-
-        case FLIP: {
-
-            cout << "\n********** FLIP ACTIVADO **********\n";
-            return false;
-        }
-
         default:
             return false;
     }
 }
 
-bool EfectoCartas::cartaValidaFlip(CartaFlip& jugada, CartaFlip& mesa) {
-    Carta actualJugada = jugada.getCartaActual();
-    Carta actualMesa   = mesa.getCartaActual();
+bool EfectoCartas::cartaValidaFlip(CartaFlip& jugada, CartaFlip& mesa, bool ladoOscuro) {
+    Carta actualJugada = jugada.getCartaActual(ladoOscuro);
+    Carta actualMesa   = mesa.getCartaActual(ladoOscuro);
 
     if (actualJugada.getTipo() == CARTA_COMODIN) {
         return true;
@@ -159,7 +208,7 @@ bool EfectoCartas::efectoCartaFlip(
     int cantidadJugadores,
     bool& ladoOscuro
 ) {
-    ValorCarta valor = cartaFlip.getCartaActual().getValor();
+    ValorCarta valor = cartaFlip.getCartaActual(ladoOscuro).getValor();
     bool noAvanzarTurnoNormal = false;
 
     switch (valor) {
@@ -198,7 +247,7 @@ bool EfectoCartas::efectoCartaFlip(
         case SALTO_TODOS:
             cout << "¡SALTA A TODOS! " << turnos.jugadorActual().getNombreJugador()
                  << " vuelve a jugar.\n";
-            noAvanzarTurnoNormal = true;  // NO avanzamos turno
+            noAvanzarTurnoNormal = true;
             break;
 
         case COLOR_ETERNO:
@@ -206,7 +255,7 @@ bool EfectoCartas::efectoCartaFlip(
             ColorCarta elegido = pedirColor();
             cout << "Color eterno elegido: " << colorCartaString(elegido) << endl;
             turnos.siguienteTurno();
-            robarHastaColor(turnos.jugadorActual(), mazoFlip, elegido);
+            robarHastaColor(turnos.jugadorActual(), mazoFlip, elegido, ladoOscuro);
             noAvanzarTurnoNormal = true;
             break;
         }
@@ -214,11 +263,16 @@ bool EfectoCartas::efectoCartaFlip(
         case CAMBIA_COLOR:
         {
             ColorCarta elegido = pedirColor();
+            Carta cartaActual = cartaFlip.getCartaActual(ladoOscuro);
+            cartaActual.setColor(elegido);
+            cartaFlip.setCartaActual(cartaActual, ladoOscuro);
             cout << "Color cambiado a: " << colorCartaString(elegido) << endl;
             break;
         }
 
         case FLIP:
+            ladoOscuro = !ladoOscuro;
+            cout << "***** ¡FLIP! Cambio a "<< (ladoOscuro ? "OSCURO" : "CLARO")<< " ***** "<<endl;
             break;
 
         default:
@@ -231,11 +285,11 @@ bool EfectoCartas::efectoCartaFlip(
 
 ColorCarta EfectoCartas::pedirColor() {
     int opcion;
-    cout << "\nElige nuevo color:\n";
-    cout << "1. Rojo    2. Azul\n";
-    cout << "3. Verde   4. Amarillo\n";
-    cout << "5. Rosa    6. Turquesa\n";
-    cout << "7. Naranja 8. Violeta\n";
+    cout << "Elige nuevo color: "<<endl;
+    cout << "1. Rojo    2. Azul "<<endl;
+    cout << "3. Verde   4. Amarillo "<<endl;
+    cout << "5. Rosa    6. Turquesa "<<endl;
+    cout << "7. Naranja 8. Violeta "<<endl;
     cout << "Opcion: ";
     cin >> opcion;
 
@@ -249,24 +303,26 @@ ColorCarta EfectoCartas::pedirColor() {
         case 7: return NARANJA;
         case 8: return VIOLETA;
         default:
-            cout << "Opción inválida → Rojo por defecto\n";
+            cout << "Opción inválida : Rojo por defecto "<<endl;
             return ROJO;
     }
 }
 
-void EfectoCartas::robarHastaColor(Jugador& jugador, MazoFlip& mazo, ColorCarta colorBuscado) {
+void EfectoCartas::robarHastaColor(Jugador& jugador, MazoFlip& mazo, ColorCarta colorBuscado, bool ladoOscuro) {
     int cont = 0;
     CartaFlip robada;
+
     do {
         robada = mazo.robarCartaFlip();
         jugador.recibirCartaFlip(robada);
         cont++;
-        cout << jugador.getNombreJugador() << " roba una carta (" << cont << ")...\n";
-    } while (robada.getCartaActual().getColor() != colorBuscado && !mazo.isEmpty());
 
-    cout << "¡Salió " << colorCartaString(colorBuscado) << "! Para de robar.\n";
+        cout << jugador.getNombreJugador() << " roba una carta (" << cont << ") " << endl;
+
+    } while (!mazo.isEmpty() && robada.getCartaActual(ladoOscuro).getColor() != colorBuscado);
+
+    cout << "Salió " << colorCartaString(colorBuscado) << "! Para de robar " << endl;
 }
-
 
 
 bool EfectoCartas::victoriaJugador(Jugador &jugador) {

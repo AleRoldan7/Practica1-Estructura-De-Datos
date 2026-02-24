@@ -29,14 +29,17 @@ class Jugador {
     void mostrarMano();
     void mostrarManoConIndices();
     int cantidadCartas();
+    int cantidadaCartaFlip();
     Carta jugarCarta(int posicionCarta);
     bool tieneUno();
     bool ganoJugador();
+    bool ganoJugadorFlip();
     string getNombreJugador();
     void setNombreJugador(string nombreJugador);
     CartaFlip jugarCartaFlip(int posicionCarta);
 
     void mostrarManoFlipConIndices(bool modoOscuro) const;
+
 };
 
 

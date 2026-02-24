@@ -12,7 +12,7 @@ class ListaMazoFlipJugador {
 private:
     NodoManoFlip* head;
     int cantidad;
-
+    bool ladoOscuro;
     bool ordenar(CartaFlip a, CartaFlip b);
 
     public:

@@ -93,6 +93,12 @@ void MazoCartas::createMazoInicial() {
         mazo.push(Carta(NEGRA, CARTA_COMODIN, CAMBIA_COLOR));
         mazo.push(Carta(NEGRA, CARTA_COMODIN, TOMA_4));
     }
+
+    mazo.push(Carta(NEGRA, JOKER, VALOR_JOKER));
+
+    mazo.push(Carta(NEGRA, GLOTON, VALOR_GLOTON));
+
+
 }
 
 
@@ -138,8 +144,6 @@ void MazoCartas::mostrarMazoCompleto() {
 
     PilaMazo copia = mazo;
     int contador = 0;
-
-    std::cout << "\n===== MOSTRANDO MAZO COMPLETO =====\n\n";
 
     while (!copia.esVacia()) {
 

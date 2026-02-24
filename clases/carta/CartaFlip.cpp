@@ -6,18 +6,16 @@
 #include <iostream>
 using namespace std;
 
-
-
 CartaFlip::CartaFlip() {
-    this->esOscuro = false;
+
 }
 
 CartaFlip::CartaFlip(Carta claro, Carta oscuro) {
     this->ladoClaro = claro;
     this->ladoOscuro = oscuro;
-    this->esOscuro = false;
 }
 
+/*
 void CartaFlip::voltearCartaFlip() {
     esOscuro = !esOscuro;
 }
@@ -25,18 +23,17 @@ void CartaFlip::voltearCartaFlip() {
 void CartaFlip::setModoOscuro(bool modo) {
     esOscuro = modo;
 }
+*/
 
-
-Carta CartaFlip::getCartaActual() {
-    return esOscuro ? ladoOscuro : ladoClaro;
+Carta CartaFlip::getCartaActual(bool ladoOscuro)  {
+    return ladoOscuro ? this->ladoOscuro : this->ladoClaro;
 }
 
-void CartaFlip::mostrarCartaActual() {
-
-    if (esOscuro) {
-        ladoOscuro.mostrarCarta();
+void CartaFlip::mostrarCartaActual(bool ladoOscuro)  {
+    if (ladoOscuro) {
+        this->ladoOscuro.mostrarCarta();
     } else {
-        ladoClaro.mostrarCarta();
+        this->ladoClaro.mostrarCarta();
     }
 }
 
@@ -71,10 +68,6 @@ vector<string> CartaFlip::lineaHorizontalFlip() {
     return resultado;
 }
 
-
-
-
-
 void CartaFlip::mostrarAmbosLados() {
 
     cout << "\n╔══════════════════════════╗\n";
@@ -90,4 +83,13 @@ void CartaFlip::mostrarAmbosLados() {
     ladoOscuro.mostrarCarta();
 
     cout << "╚══════════════════════════╝\n";
+}
+
+
+void CartaFlip::setCartaActual(Carta& carta, bool oscuro) {
+    if (oscuro) {
+        ladoOscuro = carta;
+    } else {
+        ladoClaro = carta;
+    }
 }

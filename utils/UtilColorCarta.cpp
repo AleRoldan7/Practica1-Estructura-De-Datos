@@ -47,6 +47,23 @@ std::string colorCartaString(ColorCarta color) {
         case AMARILLO:
             return "AMARILLO";
 
+        case ROSA :
+            return "ROSA";
+
+        case TURQUESA:
+            return "TURQUESA";
+
+        case NEGRA:
+            return "NEGRA";
+
+        case VIOLETA:
+            return "VIOLETA";
+
+        case MULTICOLOR:
+            return "MULTICOLOR";
+
+        case NARANJA:
+            return "NARANJA";
         default:
             return " ";
     }

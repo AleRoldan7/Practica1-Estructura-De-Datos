@@ -9,6 +9,8 @@ const char* tipoCartaString(TipoCarta tipo) {
         case CARTA_NUMERO:  return "NUMERO";
         case CARTA_COMODIN: return "COMODIN";
         case CARTA_ACCION:  return "ACCION";
+        case JOKER:         return "JOKER";
+        case GLOTON:       return "GLOTON";
         default:            return "???";
     }
 }

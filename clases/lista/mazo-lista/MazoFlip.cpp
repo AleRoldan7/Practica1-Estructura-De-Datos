@@ -88,6 +88,17 @@ void MazoFlip::createMazoFlip() {
         ladoOscuro.push_back(Carta(NEGRA, CARTA_COMODIN, TOMA_6));
     }
 
+    ladoClaro.push_back(Carta(NEGRA,JOKER,VALOR_JOKER));
+    ladoClaro.push_back(Carta(NEGRA,JOKER,VALOR_JOKER));
+
+    ladoOscuro.push_back(Carta(NEGRA,JOKER,VALOR_JOKER));
+    ladoOscuro.push_back(Carta(NEGRA,JOKER,VALOR_JOKER));
+
+    ladoClaro.push_back(Carta(NEGRA,GLOTON,VALOR_GLOTON));
+    ladoClaro.push_back(Carta(NEGRA,GLOTON,VALOR_GLOTON));
+
+    ladoOscuro.push_back(Carta(NEGRA,GLOTON,VALOR_GLOTON));
+    ladoOscuro.push_back(Carta(NEGRA,GLOTON,VALOR_GLOTON));
 
     random_device rd;
     mt19937 g(rd());

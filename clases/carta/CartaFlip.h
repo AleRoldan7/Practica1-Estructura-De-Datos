@@ -13,19 +13,19 @@ private:
 
     Carta ladoClaro;
     Carta ladoOscuro;
-    bool esOscuro;
+    //bool esOscuro;
 
     public:
     CartaFlip();
     CartaFlip(Carta claro, Carta oscuro);
 
-    void voltearCartaFlip();
-    void setModoOscuro(bool modo);
+    //void voltearCartaFlip();
+    //void setModoOscuro(bool modo);
 
-    Carta getCartaActual();
-    void mostrarCartaActual();
+    Carta getCartaActual(bool ladoOscuro);
+    void mostrarCartaActual(bool ladoOscuro);
     void mostrarAmbosLados();
-
+    void setCartaActual(Carta& carta, bool ladoOscuro);
     vector<std::string> lineaHorizontalFlip();
 };
 
