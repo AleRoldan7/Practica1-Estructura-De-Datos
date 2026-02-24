@@ -18,6 +18,13 @@ int CrearJugador::solicitarJugadores() {
     do {
         cout<<"Ingrese la cantidad de jugadores: "<<endl;
         cin>>catidad;
+
+        if (cin.fail() || catidad < 2) {
+            cout << "Error: Debe ingresar un numero entero mayor o igual a 2.\n";
+            cin.clear();
+            cin.ignore(10000, '\n');
+        }
+
     }while (catidad < 2 );
 
     return catidad;
